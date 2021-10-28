@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+#header {
+    height: 100%;
+    transition: all 0.5s;
+    z-index: 1;
+    transition: all 0.5s;
+    /*background: rgba(42, 44, 57, 0.9);*/
+  }
+  
+  #header.header-transparent {
+   
+    height: 90px;
+   text-align: center;
+  
+   margin-right: 35%;
+  }
+  
+  
+  #header.header-scrolled {
+    background: rgba(42, 44, 57, 0.9);
+  }
+  .navbar {
+    padding: 0;
+   position: fixed;
+    width: 100%;
+   border-radius: 10px;
+   background-color: black;
+  /*margin-top: 1px;*/
+  left: 0;
+  top: 0;
+  justify-content: space-between;
+  }
+  
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    margin-left: 3%;
+  }
+  .navbar li {
+    position: relative;
+  }
+  .navbar a, .navbar a:focus {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    /*background:#ebebeb;*/
+    color: white;
+    transition: 0.3s;
+    font-size: 13px;
+    font-weight: 700;
+    font-family:  "montserrat",sans-serif;
+
+  }
+  .navbar a i, .navbar a:focus i {
+    font-size: 10px;
+    line-height: 0;
+
+  }
+  .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+    color: red;
+    font-weight: bold;
+  }
+  .navbar .dropbtn {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 13px;
+    border: none;
+    font-weight: bold;
+  }
+  
+  .navbar .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .navbar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ebebeb;
+    min-width: 140px;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    z-index: 1;
+  }
+  
+  .navbar .dropdown-content a {
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .navbar .dropdown-content a:hover {background-color: #ddd;}
+  
+  .navbar .dropdown:hover .dropdown-content {display: block;}
+  .carousel {
+    position: relative;
+  }
+  #home{
+    padding-top: 80px;
+    margin-left: 60px;
+  }
+  #home .logo{
+    margin-left: 80px;
+    width:100px;
+    height:100px;
+    padding-bottom: 30px;;
+  }
+  #home .home-date p{
+    font-size: 13px;
+    font-weight:700;
+  }
+  #home .home-date i{
+    font-size: 20px;
+    color:red;
+  }
+  #home .description{
+   margin-left: 50px;
+  }
+  #home .description a{
+    font-size: 15px;
+  }
+  #home .description img{
+    width:60px;
+  }
+  #home .video-page{
+    margin-left: 50px;
+  }
+  #home .video-page button{
+    color: red;
+    font-size: 20px;
+  }
+
+  .mySlides {
+    display:none;
+  }
+ 
+  blink {
+    -webkit-animation: 2s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
+    animation: 2s linear infinite condemned_blink_effect;
+  }
+  
+  /* for Safari 4.0 - 8.0 */
+  @-webkit-keyframes condemned_blink_effect {
+    0% {
+      visibility: hidden;
+    }
+    50% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }
+  
+  @keyframes condemned_blink_effect {
+    0% {
+      visibility: hidden;
+    }
+    50% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }
+  .scroll-left{
+    margin-top: 30px;
+    height: 50px;
+    overflow: hidden;
+    position:relative;
+    background:white;
+    color:black;
+    border:1px solid black;
+  }
+  .scroll-left i{
+    color: red;
+    font-size: 25px;
+  }
+  .scroll-left p{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    transform: translateX(100%);
+    animation:scroll-left 15s linear infinite;
+  }
+  @keyframes scroll-left{
+    0%{
+      transform: translateX(100%);
+    }
+    100%{
+      transform: translateX(-100%);
+    }
+  }
+  .recent-news img{
+    width:90px;
+    height:50px;
+  }
+  .recent-news p{
+    font-size:12px;
+    padding-left: 5px;
+  }
+  .command-head{
+    margin-left: 5px;
+    margin-top:5px;
+    border: 1px solid #dbd8d7;
+  }
+  .command-btn{
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 10px;
+    margin:10px;
+  }
+  .command-head .img-content{
+    padding: 3px;
+  }
+  .command-head .img-content span,a,p{
+    color: black;
+  }
