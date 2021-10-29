@@ -414,7 +414,7 @@ body {
   height: 550px;
   border:2px  groove #f7f7f7; /* Should be removed. Only for demonstration */
 }*/
-#allnews .kalvi{
+#allnews .kalvi,.india,.game{
   border:2px  groove #f7f7f7;
 }
 #footer {
