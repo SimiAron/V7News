@@ -420,6 +420,7 @@ body {
 }
 #allnews .kalvi{
   border-left: 2px groove #f7f7f7;
+  border-right: 2px groove #f7f7f7;
 }
 #allnews .kalvi img{
   width:300px;
