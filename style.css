@@ -414,6 +414,10 @@ body {
   height: 550px;
   border:2px  groove #f7f7f7; /* Should be removed. Only for demonstration 
 }*/
+#allnews{
+  margin-left: 30px;
+  
+}
 #allnews .kalvi img{
   width:300px;
   height:300px;
