@@ -418,22 +418,22 @@ body {
   margin-left: 7%;
   margin-top:50px;
 }
-#allnews .kalvi{
+#allnews .game{
   border-left: 1px groove #f7f7f7;
   border-right: 1px groove #f7f7f7;
 }
-#allnews .kalvi img{
-  width:350px;
-  height:200px;
+#allnews .game img{
+  width:380px;
+  height:220px;
   padding:5px;
   align-items: center;
 }
-#allnews .kalvi h6.i{
+#allnews .game h6,i{
   font-size: 20px;
   padding: 15px;
   font-weight: 800;
 }
-#allnews .kalvi p{
+#allnews .game p{
   font-size: 13px;
   padding-top: 10px;
 }
@@ -455,30 +455,12 @@ body {
   font-size: 13px;
   padding-top: 10px;
 }
-#allnews .game{
-  border-right: 1px groove #f7f7f7;
-}
-#allnews .game img{
-  width:250px;
-  height:150px;
-  padding: 5px;
-  align-items: center;
-}
-#allnews .game h6,i{
-  font-size: 20px;
-  padding: 15px;
-  font-weight: 800;
-}
-#allnews .game p{
-  font-size: 13px;
-  padding-top: 10px;
-}
 #allnews .cini{
   border-right: 1px groove #f7f7f7;
 }
 #allnews .cini img{
-  width:350px;
-  height:200px;
+  width:250px;
+  height:150px;
   padding: 5px;
   align-items: center;
 }
@@ -488,6 +470,24 @@ body {
   font-weight: 800;
 }
 #allnews .cini p{
+  font-size: 13px;
+  padding-top: 10px;
+}
+#allnews .cini{
+  border-right: 1px groove #f7f7f7;
+}
+#allnews .kalvi img{
+  width:380px;
+  height:220px;
+  padding: 5px;
+  align-items: center;
+}
+#allnews .kalvi h6,i{
+  font-size: 20px;
+  padding: 15px;
+  font-weight: 800;
+}
+#allnews .kalvi p{
   font-size: 13px;
   padding-top: 10px;
 }
