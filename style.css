@@ -428,6 +428,7 @@ body {
 }
 #allnews .kalvi p{
   font-size: 13px;
+  padding-top: 10px;
 }
 #allnews .india img{
   width:300px;
@@ -440,6 +441,7 @@ body {
 }
 #allnews .india p{
   font-size: 13px;
+  padding-top: 10px;
 }
 #allnews .game img{
   width:300px;
@@ -451,6 +453,7 @@ body {
 }
 #allnews .game p{
   font-size: 13px;
+  padding-top: 10px;
 }
 #allnews .cini img{
   width:300px;
@@ -462,6 +465,7 @@ body {
 }
 #allnews .cini p{
   font-size: 13px;
+  padding-top: 10px;
 }
 #allnews .kalvi,.india,.game,.cini {
   border:2px  groove #f7f7f7;
