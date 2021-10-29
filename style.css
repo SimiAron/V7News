@@ -473,12 +473,12 @@ body {
   font-size: 13px;
   padding-top: 10px;
 }
-#allnews .cini{
+#allnews .kalvi {
   border-right: 1px groove #f7f7f7;
 }
 #allnews .kalvi img{
-  width:380px;
-  height:220px;
+  width:450px;
+  height:300px;
   padding: 5px;
   align-items: center;
 }
