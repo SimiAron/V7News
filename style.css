@@ -415,8 +415,11 @@ body {
   border:2px  groove #f7f7f7; /* Should be removed. Only for demonstration 
 }*/
 #allnews{
-  margin-left: 6%;
+  margin-left: 7%;
   margin-top:50px;
+}
+#allnews .kalvi{
+  border-left: 2px groove #f7f7f7;
 }
 #allnews .kalvi img{
   width:300px;
@@ -430,8 +433,11 @@ body {
   font-size: 13px;
   padding-top: 10px;
 }
+#allnews .india{
+  border-right: 2px groove #f7f7f7;
+}
 #allnews .india img{
-  width:300px;
+  width:250px;
   height:150px;
 }
 #allnews .india h6{
@@ -443,8 +449,12 @@ body {
   font-size: 13px;
   padding-top: 10px;
 }
+#allnews .game{
+  border-right: 2px groove #f7f7f7;
+}
+#
 #allnews .game img{
-  width:300px;
+  width:250px;
   height:150px;
 }
 #allnews .game h6{
@@ -455,6 +465,10 @@ body {
   font-size: 13px;
   padding-top: 10px;
 }
+#allnews .cini{
+  border-right: 2px groove #f7f7f7;
+}
+#
 #allnews .cini img{
   width:300px;
   height:150px;
@@ -467,9 +481,7 @@ body {
   font-size: 13px;
   padding-top: 10px;
 }
-#allnews .kalvi,.india,.game,.cini{
-  border:2px  groove #f7f7f7;
-}
+
 #footer {
   color: white;
   font-size: 14px;
