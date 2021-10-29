@@ -214,16 +214,6 @@ body {
     font-size:12px;
     padding-left: 5px;
   }
-  .youtube{
-    padding-top:10px;
-  }
-  /*.command-btn{
-    font-size: 14px;
-    font-weight: 700;
-    text-align: center;
-    margin-left: 10px;
-    margin:10px;
-  }*/
   .recent-head .img-content{
     padding: 3px;
   }
@@ -308,85 +298,62 @@ body {
      height: 100px;
      width: 200px;
   }
- 
-  .cinema {
-    margin-top: 50px;
-    float: left;
-    width: 85%;
-    margin-left: 7%;
-    padding: 10px;
-    height: 950px;
-    border:2px  groove #f7f7f7; /* Should be removed. Only for demonstration */
+  #cinema{
+    margin-top: 5px;
+    margin-left: 6%;
+    
 }
-.cinema h5 {
-  margin-left: 50px;
+#cinema h6,i{
+    padding-left: 20px;
+    padding-top: 15px;
+    font-weight: 800;
+    font-size: 20px;
 }
-.cinema hr{
-  color: red;
+#cinema .cinema-page1{
+    padding-left: 40px;
+    border-left: 1px groove #f7f7f7;
+    border-right: 1px groove #f7f7f7;
 }
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-   
-  }
-  .cinema-page1 img{
-      width: 500px;
-      padding-left: 20px;
-  }
-  .cinema-page1 p{
-      padding-left: 20px;
-      font-size: 13px;
-      width: 500px;
-      padding-top: 10px;
-
-  }
-  .cinema-page2 img{
-      width: 200px;
-     padding-left: 35px;
-      height: 200px;
-  }
-  .cinema-page2 p{
-      padding-left: 35px;
-      padding-top: 15px;
-      font-size: 12px;
-      width: 200px;
-  }
-  .para img{
-      width: 300px;
-  }
-  .cinema-page3 img{
-    width: 300px;
-    padding-left: 35px;
-     height: 150px;
-  }
-  .cinema-page3 p{
-    padding-left: 35px;
-    padding-top: 10px;
+#cinema .cinema-page1 img{
+    width: 400px;
+    height:200px;
+}
+#cinema .cinema-page1 p{
     font-size: 12px;
-    width: 300px;
+    padding-top: 10px;
 }
-.cinema-page4 img{
-  width: 200px;
-  padding-left: 35px;
-   height: 150px;
+#cinema .cinema-page2{
+    border-right: 1px groove #f7f7f7;
 }
-.cinema-page4 p{
-  padding-left: 35px;
-  padding-top: 10px;
-  font-size: 12px;
-  width: 200px;
+#cinema .cinema-page2 img{
+    width: 100px;
+    height:100px;
 }
-.cinema-page5 img{
-  width: 450px;
-  padding-left: 35px;
-   height: 250px;
+#cinema .cinema-page2 p{
+    font-size: 12px;
+    padding-left: 10px;
 }
-.cinema-page5 p{
-  padding-left: 35px;
-  padding-top: 10px;
-  font-size: 12px;
-  width: 450px;
+#cinema .cinema-page3{
+    border-right: 1px groove #f7f7f7;
+}
+#cinema .cinema-page3 img{
+    width: 400px;
+    height:200px;
+}
+#cinema .cinema-page3 p{
+    font-size: 12px;
+    padding-top: 10px;
+}
+#cinema .cinema-page4{
+    border-right: 1px groove #f7f7f7;
+}
+#cinema .cinema-page4 img{
+    width: 100px;
+    height:100px;
+}
+#cinema .cinema-page4 p{
+    font-size: 12px;
+    padding-left: 10px;
 }
 
 #allnews{
