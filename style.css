@@ -415,8 +415,34 @@ body {
   border:2px  groove #f7f7f7; /* Should be removed. Only for demonstration 
 }*/
 #allnews .kalvi img{
-  width:90px;
-  height:50px;
+  width:400px;
+  height:300px;
+}
+#allnews .kalvi h6{
+  font-size: 20px;
+}
+#allnews .kalvi p{
+  font-size: 13px;
+}
+#allnews .india img{
+  width:400px;
+  height:300px;
+}
+#allnews .india h6{
+  font-size: 20px;
+}
+#allnews .india p{
+  font-size: 13px;
+}
+#allnews .game img{
+  width:400px;
+  height:300px;
+}
+#allnews .game h6{
+  font-size: 20px;
+}
+#allnews .game p{
+  font-size: 13px;
 }
 #allnews .kalvi,.india,.game {
   border:2px  groove #f7f7f7;
