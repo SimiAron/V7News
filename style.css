@@ -382,27 +382,28 @@ body {
     font-size: 12px;
     padding-left: 10px;
 }
+
 #cinema .cinema-page3{
     border-right: 1px groove #f7f7f7;
 }
 #cinema .cinema-page3 img{
-    width: 400px;
-    height:200px;
-}
-#cinema .cinema-page3 p{
-    font-size: 12px;
-    padding-top: 10px;
-}
-#cinema .cinema-page4{
-    border-right: 1px groove #f7f7f7;
-}
-#cinema .cinema-page4 img{
     width: 100px;
     height:100px;
 }
-#cinema .cinema-page4 p{
+#cinema .cinema-page3 p{
     font-size: 12px;
     padding-left: 10px;
+}
+#cinema .cinema-page4{
+  border-right: 1px groove #f7f7f7;
+}
+#cinema .cinema-page4 img{
+  width: 400px;
+  height:200px;
+}
+#cinema .cinema-page4 p{
+  font-size: 12px;
+  padding-top: 10px;
 }
 
 #allnews{
