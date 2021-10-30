@@ -206,6 +206,9 @@ body {
       transform: translateX(-100%);
     }
   }
+  .seithi{
+    padding-top: 60px;
+  }
   .seithi img{
     width:90px;
     height:50px;
