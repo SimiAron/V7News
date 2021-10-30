@@ -272,16 +272,88 @@ body {
     box-sizing: border-box; 
 } 
 
+.tamil {
+  margin-left: 7%;
+  border: 2px groove #f7f7f7;
+  padding: 10px;
+}
+.tamil-page img {
+  width: 350px;
 
+}
+.tamil-page h6 {
+  padding-top: 15px;
+  font-size: 15px;
+  width: 350px;
+}
+.tamil-page p{
+  font-size: 13px;
+  width: 350px;
+}
+.tamil-content img {
+  width: 300px;
+  padding-left: 100px;
+}
+.tamil-content p {
+  font-size: 12px;
+  padding-left: 100px;
+  width: 300px;
+  padding-top: 10px;
+}
+.tamil-content1 img {
+  width: 450px;
+  padding-left: 280px;
+}.tamil-content1 p {
+  font-size: 13px;
+  padding-left: 280px;
+  width: 450px;
+}
+.arasiyal {
+  border: 2px groove #f7f7f7;
+  padding: 10px;
+}
+.arasiyal-page img {
+  width: 350px;
+}
+.arasiyal-page h6 {
+  padding-top: 15px;
+  font-size: 15px;
+  width: 350px;
+}
+.arasiyal-page p{
+  font-size: 13px;
+  width: 350px;
+}
+
+.arasiyal-content img {
+  width: 300px;
+  padding-left: 100px;
+}
+
+.arasiyal-content p {
+  font-size: 12px;
+  padding-left: 100px;
+  width: 300px;
+  padding-top: 10px;
+}
+.arasiyal-content1 img {
+  width: 450px;
+  padding-left: 280px;
+}
+.arasiyal-content1 p{
+  font-size: 13px;
+  padding-left: 280px;
+  width: 450px;
+}
 /* Create two equal columns floats next to each other */
-.govern {
+/*.govern {
     margin-top: 50px;
     float: left;
     width: 40%;
     margin-left: 7%;
     padding: 10px;
     height: 550px;
-    border:2px  groove #f7f7f7; /* Should be removed. Only for demonstration */
+    border:2px  groove #f7f7f7; /* Should be removed. Only for demonstration 
 }
 .govern h5 {
     margin-left: 50px;
@@ -303,7 +375,7 @@ body {
 .govern1 i{
   padding-bottom: 80%;
 }
-/* Clear floats after the columns */
+/* Clear floats after the columns 
 .row:after {
     content: "";
     display: table;
@@ -346,7 +418,7 @@ body {
     padding-left: 35px;
      height: 100px;
      width: 200px;
-  }
+  }*/
   #cinema{
     margin-top: 5px;
     margin-left: 6%;
@@ -397,10 +469,6 @@ body {
 #cinema .cinema-page4{
   border-right: 1px groove #f7f7f7;
 }
-/*#cinema .cinema-page4 img{
-  width: 400px;
-  height:200px;
-}*/
 #cinema .cinema-page4 p{
   font-size: 12px;
   padding-top: 10px;
