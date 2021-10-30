@@ -117,7 +117,8 @@ body {
     height:180px;
   }
   .scroll-bar{
-    width:55%;
+    width:60%;
+    margin-left:30px;
   }
   .scroll-left{
     margin-top: 5px;
@@ -130,7 +131,7 @@ body {
   }
   .scroll-left i{
     color: red;
-    font-size: 25px;
+    font-size: 23px;
   }
   .scroll-left p{
     font-size: 15px;
