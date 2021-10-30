@@ -80,7 +80,7 @@ body {
   .navbar .dropdown:hover .dropdown-content {display: block;}
 
   #home{
-    padding-top: 10px;
+    padding-top: 40px;
     margin-left: 60px;
     position: relative;
     display: inline-block;
@@ -92,7 +92,7 @@ body {
 
   }
   #home .description{
-   margin-left: 50px;
+   margin-left: 20%;
   }
   #home .description a{
     font-size: 12px;
