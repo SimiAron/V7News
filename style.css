@@ -17,7 +17,7 @@ body {
     padding: 0;
     display: flex;
     list-style: none;
-    margin-left: 3%;
+    margin-left: 1%;
   }
   .navbar li {
     position: relative;
