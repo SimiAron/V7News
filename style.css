@@ -91,7 +91,7 @@ body {
     height:180px;
   }
   #home .description a,p{
-    float: right;
+    margin-left: 20%;
   }
   #home .description p{
     font-size:10px;
