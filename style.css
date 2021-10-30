@@ -84,8 +84,8 @@ body {
     margin-left: 20px;
     }
     .navbar .socials li a {
-      background:white;
-    color:black;
+      border-right: 1px solid white;
+    color:white;
     padding:5px;
     }
     .navbar .socials i{
