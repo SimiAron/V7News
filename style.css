@@ -116,21 +116,42 @@ body {
     width:180px;
     height:180px;
   }
- 
-  /*#home .description{
-   margin-left: 50%;
-   float: right;
+  .scroll-bar{
+    width:55%;
   }
-  #home .description a{
-    font-size: 12px;
+  .scroll-left{
+    margin-top: 30px;
+    height: 50px;
+    overflow: hidden;
+    position:relative;
+    background:white;
+    color:black;
+    border:1px solid black;
   }
-  #home .description p{
-    font-size: 10px;
+  .scroll-left i{
+    color: red;
+    font-size: 25px;
   }
-  #home .description img{
-    width:80px;
-    padding-top:10px;
-  }*/
+  .scroll-left p{
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    transform: translateX(100%);
+    animation:scroll-left 15s linear infinite;
+  }
+  @keyframes scroll-left{
+    0%{
+      transform: translateX(100%);
+    }
+    100%{
+      transform: translateX(-100%);
+    }
+  }
   #home .video-page{
     margin-left: 50px;
   }
@@ -173,10 +194,8 @@ body {
       visibility: visible;
     }
   }
-  .scroll-bar{
-    width:70%;
-  }
-  .scroll-left{
+
+  .scroll-left1{
     margin-top: 30px;
     height: 50px;
     overflow: hidden;
@@ -185,11 +204,11 @@ body {
     color:black;
     border:1px solid black;
   }
-  .scroll-left i{
+  .scroll-left1 i{
     color: red;
     font-size: 25px;
   }
-  .scroll-left p{
+  .scroll-left1 p{
     font-size: 15px;
     font-weight: bold;
     position: absolute;
@@ -199,9 +218,9 @@ body {
     line-height: 50px;
     text-align: center;
     transform: translateX(100%);
-    animation:scroll-left 15s linear infinite;
+    animation:scroll-left1 15s linear infinite;
   }
-  @keyframes scroll-left{
+  @keyframes scroll-left1{
     0%{
       transform: translateX(100%);
     }
