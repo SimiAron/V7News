@@ -86,7 +86,8 @@ body {
     display: inline-block;
   }
   #home .description a,p{
-    margin-left: 20%;
+    margin-left: 10%;
+    font-size: 10px;
   }
   #home .description p{
     font-size:10px;
