@@ -87,6 +87,8 @@ body {
       background:white;
     color:black;
     padding:5px;
+    }
+    .navbar .socials li{
     font-size: 18px;
     }
     .navbar .socials li a:hover{
