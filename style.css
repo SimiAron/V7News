@@ -80,30 +80,25 @@ body {
   .navbar .dropdown:hover .dropdown-content {display: block;}
 
   #home{
-    padding-top: 80px;
+    padding-top: 10px;
     margin-left: 60px;
     position: relative;
     display: inline-block;
   }
   #home .logo{
     margin-left: 80px;
-    /*width:180px;
-    height:180px;*/
+    width:180px;
+    height:180px;
 
-  }
-  #home .home-date p{
-    font-size: 13px;
-    font-weight:700;
-  }
-  #home .home-date i{
-    font-size: 20px;
-    color:red;
   }
   #home .description{
    margin-left: 50px;
   }
   #home .description a{
-    font-size: 15px;
+    font-size: 12px;
+  }
+  #home .description p{
+    font-size: 10px;
   }
   #home .description img{
     width:80px;
