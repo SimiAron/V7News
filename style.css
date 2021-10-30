@@ -85,17 +85,18 @@ body {
     position: relative;
     display: inline-block;
   }
-  #home .description .logo{
-    margin-left: 80px;
-    width:180px;
-    height:180px;
-  }
   #home .description a,p{
     margin-left: 20%;
   }
   #home .description p{
     font-size:10px;
   }
+  #home .logo{
+    margin-left: 80px;
+    width:180px;
+    height:180px;
+  }
+ 
   /*#home .description{
    margin-left: 50%;
    float: right;
