@@ -31,7 +31,7 @@ body {
     font-weight: 700;
     font-family:  "montserrat",sans-serif;
   }
-  .navbar a i, .navbar a:focus i {
+  .navbar a, .navbar a:focus  {
     font-size: 10px;
     line-height: 0;
   }
