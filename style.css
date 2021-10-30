@@ -31,9 +31,10 @@ body {
     font-weight: 700;
     font-family:  "montserrat",sans-serif;
   }
-  .navbar a, .navbar a:focus  {
+  .navbar a i, .navbar a:focus i {
     font-size: 10px;
     line-height: 0;
+
   }
   .navbar .active, .navbar .active:focus, .navbar li:hover > a {
     color: red;
