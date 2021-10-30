@@ -397,10 +397,10 @@ body {
 #cinema .cinema-page4{
   border-right: 1px groove #f7f7f7;
 }
-#cinema .cinema-page4 img{
+/*#cinema .cinema-page4 img{
   width: 400px;
   height:200px;
-}
+}*/
 #cinema .cinema-page4 p{
   font-size: 12px;
   padding-top: 10px;
