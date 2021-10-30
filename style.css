@@ -34,7 +34,7 @@ body {
   .navbar a i, .navbar a:focus i {
     font-size: 10px;
     line-height: 0;
-
+    padding-top: 5px;
   }
   .navbar .active, .navbar .active:focus, .navbar li:hover > a {
     color: red;
