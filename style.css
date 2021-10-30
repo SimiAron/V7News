@@ -173,6 +173,9 @@ body {
       visibility: visible;
     }
   }
+  .scroll-bar{
+    width:70%;
+  }
   .scroll-left{
     margin-top: 30px;
     height: 50px;
@@ -248,6 +251,7 @@ body {
   * {
     box-sizing: border-box; 
 } 
+
 
 /* Create two equal columns floats next to each other */
 .govern {
