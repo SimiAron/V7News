@@ -117,7 +117,7 @@ body {
     height:180px;
   }
   .scroll-bar{
-    width:65%;
+    width:100%;
 
   }
   .scroll-left{
@@ -228,6 +228,9 @@ body {
     100%{
       transform: translateX(-100%);
     }
+  }
+  .seithi{
+    padding-top: 80px;
   }
   .seithi img{
     width:90px;
