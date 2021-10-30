@@ -89,10 +89,9 @@ body {
     margin-left: 80px;
     width:180px;
     height:180px;
-
   }
   #home .description{
-   margin-left: 30%;
+   margin-left: 60%;
    float: right;
   }
   #home .description a{
