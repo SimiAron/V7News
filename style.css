@@ -80,7 +80,7 @@ body {
   .navbar .dropdown:hover .dropdown-content {display: block;}
 
   #home{
-    padding-top: 40px;
+    padding-top: 50px;
     margin-left: 60px;
     position: relative;
     display: inline-block;
@@ -91,7 +91,7 @@ body {
     height:180px;
   }
   #home .description{
-   margin-left: 60%;
+   margin-left: 50%;
    float: right;
   }
   #home .description a{
@@ -102,6 +102,7 @@ body {
   }
   #home .description img{
     width:80px;
+    padding-top:10px;
   }
   #home .video-page{
     margin-left: 50px;
