@@ -87,8 +87,8 @@ body {
   }
   #home .logo{
     margin-left: 80px;
-    width:100px;
-    height:100px;
+    width:150px;
+    height:150px;
     padding-bottom: 30px;;
   }
   #home .home-date p{
@@ -106,8 +106,7 @@ body {
     font-size: 15px;
   }
   #home .description img{
-    width:100px;
-    height: 100px;
+    width:80px;
   }
   #home .video-page{
     margin-left: 50px;
