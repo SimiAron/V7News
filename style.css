@@ -87,8 +87,8 @@ body {
   }
   #home .logo{
     margin-left: 80px;
-    width:150px;
-    height:150px;
+    /*width:150px;
+    height:150px;*/
     padding-bottom: 30px;;
   }
   #home .home-date p{
