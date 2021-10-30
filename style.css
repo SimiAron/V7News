@@ -93,6 +93,7 @@ body {
   }
   #home .description p{
     font-size:10px;
+    float: right;
   }
   #home .logo{
     margin-left: 80px;
