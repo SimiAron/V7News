@@ -345,80 +345,6 @@ body {
   padding-left: 280px;
   width: 450px;
 }
-/* Create two equal columns floats next to each other */
-/*.govern {
-    margin-top: 50px;
-    float: left;
-    width: 40%;
-    margin-left: 7%;
-    padding: 10px;
-    height: 550px;
-    border:2px  groove #f7f7f7; /* Should be removed. Only for demonstration 
-}
-.govern h5 {
-    margin-left: 50px;
-}
-.govern hr{
-    color: red;
-}
-.govern1 {
-    margin-top: 50px;
-    float: left;
-    width: 45%;
-    padding: 10px;
-    height: 550px;
-    border:2px  groove #f7f7f7;  
-}
-.govern1 h5 {
-    margin-left: 20px;
-}
-.govern1 i{
-  padding-bottom: 80%;
-}
-/* Clear floats after the columns 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-   
-  }
-  .head img{
-      width: 350px;
-      padding-left: 20px;
-  }
-  .head h6{
-      width: 350px;
-     padding-top: 15px;
-      padding-left: 20px;
-      font-size: 15px;
-  }
-  .head p{
-      padding-left: 20px;
-      font-size: 13px;
-      width: 350px;
-
-  }
-  .content img{
-      width: 100px;
-     padding-left: 35px;
-      height: 100px;
-      width: 200px;
-  }
-  .content p{
-      padding-left: 35px;
-      padding-top: 15px;
-      font-size: 12px;
-      width: 200px;
-  }
-  .para img{
-      width: 150px;
-  }
-  .content1 img{
-    width: 100px;
-    padding-left: 35px;
-     height: 100px;
-     width: 200px;
-  }*/
   #cinema{
     margin-top: 5px;
     margin-left: 6%;
@@ -594,4 +520,7 @@ body {
   font-size: 15px;
   margin-left: 30%;
   padding:20px;
+}
+#footer .footer-contact img{
+  width: 90px;
 }
