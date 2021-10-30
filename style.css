@@ -17,7 +17,6 @@ body {
     padding: 0;
     display: flex;
     list-style: none;
-    margin-left: 1%;
   }
   .navbar li {
     position: relative;
@@ -31,7 +30,6 @@ body {
     font-size: 13px;
     font-weight: 700;
     font-family:  "montserrat",sans-serif;
-
   }
   .navbar a i, .navbar a:focus i {
     font-size: 10px;
@@ -91,7 +89,7 @@ body {
       font-size: 20px;
     }
     .navbar .socials li a:hover{
-    color: #fff;
+    color:black;
     }
 
   #home{
