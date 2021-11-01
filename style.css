@@ -245,7 +245,7 @@ body {
       display: block;
     }
   #home{
-    padding-top: 10%;
+    padding-top: 20%;
     /*margin-left: 60px;*/
     position: relative;
     display: inline-block;
@@ -294,6 +294,7 @@ body {
   }
   #home .video-page{
     margin-left: 50px;
+    padding-top: 10px;
   }
   #home .video-page button{
     color: red;
