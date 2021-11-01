@@ -106,6 +106,9 @@ body {
     #header .navbar .socials li a:hover{
     color:black;
     } 
+    .logos-align{
+      padding-top: 20px;
+    }
 
     .navbar .dropdown ul {
       display: block;
