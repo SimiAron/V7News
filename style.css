@@ -258,7 +258,6 @@ body {
   
   #home .video-page{
     margin-left: 50px;
-    padding-top: 5px;
   }
   .scroll-bar{
     width:162%;
@@ -334,8 +333,55 @@ body {
       visibility: visible;
     }
   }
+  .ticker {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 740px;
+    /*height: 20px;*/
+    margin: 0 auto;  
+  }
+  .news {
+    width: 76%;
+    height: 50px;
+    border:5px solid  #c81c1c;
+   /*background: black; */
+    padding: 0 2%;
+  }
+  .news p {
+    padding-top: 10px;
+  }
+  .title {
+    width: 20%;
+    height: 50px;
+    text-align: center;
+   background: #c81c1c;
+   color: white;
+    position: relative;
+  }
+  .title h5{
+    padding-top: 5px;
+  }
+  .title:after{
+    position: absolute;
+    content: "";
+    right: -16%;
+    /*border-left: 20px solid#c81c1c;
+    border-top: 33px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 33px solid transparent; */
+    top: 0;
+  }
+  .title h5{
+    font-size: 18px;
+    margin: 8% 0;
+  }
+  .news marquee{
+    font-size: 15px;
 
-  .scroll-left1{
+  }
+
+  /*.scroll-left1{
     margin-top: 30px;
     height: 50px;
     overflow: hidden;
@@ -367,9 +413,9 @@ body {
     100%{
       transform: translateX(-100%);
     }
-  }
+  }*/
   .seithi{
-    padding-top: 60px;
+    padding-top: 50px;
   }
   .seithi img{
     width:90px;
