@@ -245,7 +245,7 @@ body {
       display: block;
     }
   #home{
-    padding-top: 50px;
+    padding-top: 10%;
     /*margin-left: 60px;*/
     position: relative;
     display: inline-block;
@@ -255,8 +255,6 @@ body {
     width:180px;
     height:180px;
   }
-  
- 
   .scroll-bar{
     width:100%;
     padding:3px;
