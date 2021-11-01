@@ -258,8 +258,8 @@ body {
   
  
   .scroll-bar{
-    width:162%;
-    padding:5px;
+    width:100%;
+    padding:3px;
   }
   .scroll-left{
     height: 50px;
