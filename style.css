@@ -106,8 +106,13 @@ body {
     #header .navbar .socials li a:hover{
     color:black;
     } 
+    #header.logos-align-scrolled {
+      background: white;
+      box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+      top: 0;
+    }
     .logos-align{
-      padding-top: 30px;
+      padding-top: 45px;
     }
 
     .navbar .dropdown ul {
