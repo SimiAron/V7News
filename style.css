@@ -425,6 +425,9 @@ body {
     font-size: 12px;
     padding-left: 7px;
   }
+  .recent-news{
+    padding-top: 50px;
+  }
   .recent-news img{
     width:90px;
     height:50px;
