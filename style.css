@@ -3,7 +3,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
-.navbar {
+#header .navbar {
     padding: 0;
     position: fixed;
     width: 100%;
@@ -12,16 +12,16 @@ body {
     top: 0;
     justify-content: space-between;
   }
-  .navbar ul {
+ #header .navbar ul {
     margin: 0;
     padding: 0;
     display: flex;
     list-style: none;
   }
-  .navbar li {
+  #header .navbar li {
     position: relative;
   }
-  .navbar a, .navbar a:focus {
+  #header .navbar a, #header .navbar a:focus {
     display: flex;
     justify-content: space-between;
     padding: 12px;
@@ -31,20 +31,20 @@ body {
     font-weight: 700;
     font-family:  "montserrat",sans-serif;
   }
-  .navbar a i, .navbar a:focus i {
+  #header .navbar a i, #header .navbar a:focus i {
     font-size: 10px;
     line-height: 0;
     padding-top: 5px;
   }
-  .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+  #header .navbar .active, #header .navbar .active:focus, #header .navbar li:hover > a {
     color: red;
     font-weight: bold;
   }
-  .navbar a:hover{
+  #header .navbar a:hover{
     color: black;
     background:white;
   }
-  .navbar .dropbtn {
+  #header .navbar .dropbtn {
     background-color: black;
     color: white;
     padding: 15px;
@@ -53,12 +53,12 @@ body {
     font-weight: bold;
   }
   
-  .navbar .dropdowns {
+  #header .navbar .dropdowns {
     position: relative;
     display: inline-block;
   }
   
-  .navbar .dropdowns-content {
+  #header .navbar .dropdowns-content {
     display: none;
     position: absolute;
     background-color: black;
@@ -66,32 +66,32 @@ body {
     z-index: 1;
   }
   
-  .navbar .dropdowns-content a {
+  #header .navbar .dropdowns-content a {
     color:white;
     padding: 12px;
     text-decoration: none;
     display: block;
   }
   
-  .navbar .dropdowns-content a:hover {background-color:black;}
+  #header .navbar .dropdowns-content a:hover {background-color:black;}
   
-  .navbar .dropdowns:hover .dropdowns-content {display: block;}
-  .navbar .socials li {
+  #header .navbar .dropdowns:hover .dropdowns-content {display: block;}
+  #header .navbar .socials li {
     display: inline-block;
     /*line-height: 10px;*/
     font-size: 18px;
     padding: 5px;
 
     }
-    .navbar .socials li a {
+    #header .navbar .socials li a {
       border-right: 1px solid white;
     color:white;
     padding:5px;
     }
-    .navbar .socials i{
+    #header .navbar .socials i{
     font-size: 18px;
     }
-    .navbar .socials li a:hover{
+    #header .navbar .socials li a:hover{
     color:black;
     } 
 
@@ -177,7 +177,11 @@ body {
       display: block;
     }
     
-    
+    #header .logo{
+      margin-left: 80px;
+      width:180px;
+      height:180px;
+    }
   #home{
     padding-top: 50px;
     margin-left: 60px;
