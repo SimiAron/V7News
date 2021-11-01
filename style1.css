@@ -244,66 +244,122 @@ body {
     .navbar-mobile .dropdown > .dropdown-active {
       display: block;
     }
- .text {
-     margin-top: 50px;
-     margin-left: 450px;
-     margin-right: 550px;
-     border: 0.1px groove #fffcfc;
- }
- .text h4 {
-     padding-top: 10px;
-     padding-left: 55px;
- }
- .text img {
-     padding-left: 60px;
-     width: 750px;
-     padding-top: 20px;
- }
- .text p{
-     padding-left: 55px;
-     font-size: 15px;
-     padding-top: 20px;
- }
- #footer {
-    color: white;
-    font-size: 14px;
-    background: black;
+    .mainpage{
+      margin-left: 50px;
+      padding-top: 50px;
+    }
+    .recent {
+      margin-left: 85px;
+      padding-top: 350px;
+    }
+    .recent img {
+      width: 300px;
+
+    }
+    .recent p{
+      width: 350px;
+      font-size: 13px;
+      padding-top: 10px;
+    }
+   .cinemapage img{
+      width: 150px;
+      height: 100px;    
   }
-  #footer img{
+  .cinemapage p{
     width: 200px;
-    height: 200px;
-    padding: 30px;
-    margin-left: 30px;
-  
-  }
-  #footer h3{
-    padding-top: 30px;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  #footer p{
-    color:white;
-    padding:5px;
-  }
-  #footer span{
-    color: red;
-    font-size: 24px;
-  }
-  #footer .social-link{
-    font-size: 10px;
-    color:white;
-    padding:10px;
-  }
-  #footer .social-link a{
+    padding-left: 5px;
     color: black;
-    font-size: 30px;
-    padding:10px;
-    border-radius: 25 px;
-    background:white;
+    
   }
-  #footer .footer-contact h5{
-    align-items: center;
-    font-size: 15px;
-    margin-left: 30%;
-    padding:20px;
+  .cinemapage a {
+    color: black;
   }
+  .cinemapage img-content p{
+      font-size: 12px;
+      /*padding-left: 10px;*/
+  }
+    .main {
+      border: 0.1px groove #fffcfc;
+      padding: 10px 15px;
+    }
+    .main h3{
+      padding-top: 10px;
+    }
+   .main img{
+     padding-top: 20px;
+   }
+   .main p{
+     padding-top: 20px;
+   }
+   
+   .big {
+     padding-top: 350px;
+   }
+   .big img {
+     width: 350px;
+   }
+   .big p{
+     font-size: 13px;
+     width: 350px;
+   }
+   .bigstory img{
+    width: 150px;
+    height: 100px;    
+}
+.bigstory p{
+  width: 200px;
+  padding-left: 5px; 
+}
+.bigstory a {
+  color: black;
+}
+#footer {
+  color: white;
+  font-size: 14px;
+  background: black;
+}
+#footer img{
+  width: 200px;
+  height: 200px;
+  padding: 30px;
+  margin-left: 30px;
+
+}
+#footer h3{
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#footer p{
+  color:white;
+  padding:5px;
+}
+#footer span{
+  color: red;
+  font-size: 24px;
+}
+#footer .social-link{
+  font-size: 10px;
+  color:white;
+  padding:10px;
+}
+#footer .social-link a{
+  color: black;
+  font-size: 30px;
+  padding:10px;
+  border-radius: 25 px;
+  background:white;
+}
+#footer .footer-contact h5{
+  font-size: 15px;
+  margin-left: 70%;
+}
+#footer .footer-contact img{
+  width: 100px;
+  height: 100px;
+}
+
+   
+
+    
+ 
