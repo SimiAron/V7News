@@ -112,10 +112,12 @@ body {
       top: 0;
     }
     .logos-align{
-      padding-top: 38px;}
+      padding-top: 38px;
+    }
       .logos-align h6{
       justify-content: space-between;
-      
+      float: right;
+
     }
 
     .navbar .dropdown ul {
