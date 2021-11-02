@@ -287,6 +287,8 @@ body {
     }
    .main img{
      padding-top: 20px;
+     width:350px;
+     height:400px;
    }
    .main p{
      padding-top: 20px;
