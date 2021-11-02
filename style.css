@@ -249,7 +249,27 @@ body {
     .navbar-mobile .dropdown > .dropdown-active {
       display: block;
     }
-    .logos-align img{
+    #header1 {
+      transition: all 0.5s;
+      z-index: 997;
+      transition: all 0.5s;
+      top: 15px;
+    }
+    #header1.header1-scrolled {
+      background: white;
+      box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+      top: 0;
+    }
+    #header1 .navbar {
+        padding: 0;
+        position: fixed;
+        width: 100%;
+        background-color: black;
+        left: 0;
+        top: 0;
+        justify-content: space-between;
+      }
+   /* .logos-align img{
       padding-top: 38px;
       margin-left: 10PX;
     }
@@ -263,7 +283,7 @@ body {
     }
     .logos-align .img-content h6{
       font-weight:900;
-}
+}*/
 .tast {
   margin-left:30px;
   width: 90%;
