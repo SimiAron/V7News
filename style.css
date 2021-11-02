@@ -248,22 +248,25 @@ body {
     }
   
     #header img{
-      margin-left: 30PX;
+      margin-left: 50PX;
       width:220px;
       height:220px;
       padding-top: 10%;
     }
-    #header .logos-align .img-content{
-      justify-content: space-between;
+    #header .img-content{
+      margin-top: 20%;
+      float: right;
     }
-    #header .logos-align .img-content p{
+    #header .logos-align p{
       font-size: 10px;
     }
-    #header .logos-align .img-content h6{
+    #header .logos-align h6{
       font-weight:900;
 }
 #header .scrollbar {
-  width: 200%;
+  margin-top: 10%;
+  margin-left: 3%;
+  width: 270%;
   height: 50px;
   border: 1px solid black;
   position: relative;
@@ -293,7 +296,7 @@ body {
   }
   #home .video-page{
     margin-left: 50px;
-    padding-top: 15%
+    padding-top: 11%
   }
   #home .video-page button{
     color: red;
