@@ -295,6 +295,9 @@ marquee {
   background-color: red;
   text-align: center;
 }
+.scroll-bar{
+  margin-right: 5%;
+}
   #home{
     position: relative;
     display: inline-block;
