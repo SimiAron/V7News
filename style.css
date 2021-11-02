@@ -302,7 +302,7 @@ marquee {
     display: inline-block;
   }
 
-.scroll-bar{
+/*.scroll-bar{
     width:100%;
     padding:3px;
   }
@@ -340,7 +340,7 @@ marquee {
   }*/
   #home .video-page{
     margin-left: 50px;
-    padding-top: 10%
+    padding-top: 3%
   }
   #home .video-page button{
     color: red;
