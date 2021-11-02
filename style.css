@@ -249,23 +249,7 @@ body {
     .navbar-mobile .dropdown > .dropdown-active {
       display: block;
     }
-    #header1 {
-      transition: all 0.5s;
-      z-index: 997;
-      transition: all 0.5s;
-      top: 15px;
-    }
-    #header1.header1-scrolled {
-      background: white;
-      box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-      top: 0;
-    }
-    #header1 .tast {
-
-        position: fixed;
-
-
-      }
+  
    /* .logos-align img{
       padding-top: 38px;
       margin-left: 10PX;
