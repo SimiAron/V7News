@@ -7,7 +7,7 @@ body {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  top: 15px;
+  top: 20px;
 }
 #header.header-scrolled {
   background: white;
@@ -32,7 +32,6 @@ body {
   #header .navbar li {
     position: relative;
   }
- 
   #header .navbar a, #header .navbar a:focus {
     display: flex;
     justify-content: space-between;
@@ -97,7 +96,7 @@ body {
 
     }
     #header .navbar .socials li a {
-    border-right: 1px solid white;
+      border-right: 1px solid white;
     color:white;
     padding:5px;
     }
@@ -107,8 +106,6 @@ body {
     #header .navbar .socials li a:hover{
     color:black;
     } 
-
-     /*header page scrolling  */
 
     .navbar .dropdown ul {
       display: block;
@@ -247,343 +244,75 @@ body {
     .navbar-mobile .dropdown > .dropdown-active {
       display: block;
     }
+    .mainpage{
+      margin-left: 50px;
+      padding-top: 50px;
+    }
+    .recent {
+      margin-left: 85px;
+      padding-top: 350px;
+    }
+    .recent img {
+      width: 300px;
 
-    #header img{
-      margin-left: 50PX;
-      width:220px;
-      height:220px;
-      padding-top: 10%;
     }
-    #header .img-content{
-      margin-top: 20%;
-      float: right;
+    .recent p{
+      width: 350px;
+      font-size: 13px;
+      padding-top: 10px;
     }
-    #header .logos-align p{
-      font-size: 10px;
-    }
-    #header .logos-align h6{
-      font-weight:900;
-}
-#header .scrollbar {
-  margin-top: 10%;
-  margin-left: 3%;
-  width: 270%;
-  height: 50px;
-  border: 1px solid black;
-  position: relative;
-}
-#header marquee {
-  font-size: 17px;
-  line-height: 50px;
-}
-#header .scrollbar::before{
-  content: "BREAKING NEWS";
-  position: absolute;
-  top: -1px;
-  left: -1px;
-  z-index: 1;
-  line-height: 50px;
-  font-size: 18px;
-  color: white;
-  border: 1px solid red;
-  width: 170px;
-  height: 100%;
-  background-color: red;
-  text-align: center;
-}
-  #home{
-    position: relative;
-    display: inline-block;
+   .cinemapage img{
+      width: 150px;
+      height: 100px;    
   }
-  #home .video-page{
-    margin-left: 50px;
-    padding-top: 11%
-  }
-  #home .video-page button{
-    color: red;
-    font-size: 20px;
-  }
-  .mySlides {
-    display:none;
-  }
- 
-  blink {
-    -webkit-animation: 2s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
-    animation: 2s linear infinite condemned_blink_effect;
-  }
-  
-  /* for Safari 4.0 - 8.0 */
-  @-webkit-keyframes condemned_blink_effect {
-    0% {
-      visibility: hidden;
-    }
-    50% {
-      visibility: hidden;
-    }
-    100% {
-      visibility: visible;
-    }
-  }
-  
-  @keyframes condemned_blink_effect {
-    0% {
-      visibility: hidden;
-    }
-    50% {
-      visibility: hidden;
-    }
-    100% {
-      visibility: visible;
-    }
-  }
-  .seithi img{
-    width:90px;
-    height:50px;
-  }
-  .seithi p{
-    font-size: 12px;
-    padding-left: 7px;
-  }
-
-  .recent-news img{
-    width:90px;
-    height:50px;
-  }
-  .recent-news p{
-    font-size:12px;
+  .cinemapage p{
+    width: 200px;
     padding-left: 5px;
+    color: black;
+    
   }
-
-  .recent-head{
-    margin-left: 5px;
-    margin-top:5px;
-   /* border: 1px solid #dbd8d7;*/
-  }
-  .recent-head img{
-    width:90px;
-    height:50px;
-  }
-  .recent-head p{
-    font-size:12px;
-    padding-left: 5px;
-  }
-  .recent-head .img-content{
-    padding: 3px;
-  }
-  .recent-head .img-content span,a,p{
+  .cinemapage a {
     color: black;
   }
-  * {
-    box-sizing: border-box; 
-} 
-
-#tamilnadu .tamil {
-  margin-left: 7%;
-  border: 2px groove #f7f7f7;
-  padding: 10px;
+  .cinemapage img-content p{
+      font-size: 12px;
+      /*padding-left: 10px;*/
+  }
+    .main {
+      border: 0.1px groove #fffcfc;
+      padding: 10px 15px;
+    }
+    .main h3{
+      padding-top: 10px;
+    }
+   .main img{
+     padding-top: 20px;
+   }
+   .main p{
+     padding-top: 20px;
+   }
+   
+   .big {
+     padding-top: 350px;
+   }
+   .big img {
+     width: 350px;
+   }
+   .big p{
+     font-size: 13px;
+     width: 350px;
+   }
+   .bigstory img{
+    width: 150px;
+    height: 100px;    
 }
-#tamilnadu .tamil-page img {
-  width: 350px;
-
+.bigstory p{
+  width: 200px;
+  padding-left: 5px; 
 }
-#tamilnadu .tamil-page h6 {
-  padding-top: 15px;
-  font-size: 15px;
-  width: 350px;
+.bigstory a {
+  color: black;
 }
-#tamilnadu .tamil-page p{
-  font-size: 13px;
-  width: 350px;
-}
-#tamilnadu .tamil-content img {
-  width: 300px;
-  padding-left: 100px;
-}
-#tamilnadu .tamil-content p {
-  font-size: 12px;
-  padding-left: 100px;
-  width: 300px;
-  padding-top: 10px;
-}
-#tamilnadu .tamil-content1 img {
-  width: 450px;
-  padding-left: 280px;
-}
-#tamilnadu .tamil-content1 p {
-  font-size: 13px;
-  padding-left: 280px;
-  width: 450px;
-}
-#tamilnadu .arasiyal {
-  border: 2px groove #f7f7f7;
-  padding: 10px;
-}
-#tamilnadu .arasiyal-page img {
-  width: 350px;
-}
-#tamilnadu .arasiyal-page h6 {
-  padding-top: 15px;
-  font-size: 15px;
-  width: 350px;
-}
-#tamilnadu .arasiyal-page p{
-  font-size: 13px;
-  width: 350px;
-}
-
-#tamilnadu .arasiyal-content img {
-  width: 300px;
-  padding-left: 100px;
-}
-
-#tamilnadu .arasiyal-content p {
-  font-size: 12px;
-  padding-left: 100px;
-  width: 300px;
-  padding-top: 10px;
-}
-#tamilnadu .arasiyal-content1 img {
-  width: 450px;
-  padding-left: 280px;
-}
-#tamilnadu .arasiyal-content1 p{
-  font-size: 13px;
-  padding-left: 280px;
-  width: 450px;
-}
-#cinema{
-    margin-top: 5px;
-    margin-left: 6%;
-    
-}
-#cinema h6,i{
-    padding-left: 20px;
-    padding-top: 15px;
-    font-weight: 800;
-    font-size: 20px;
-}
-#cinema .cinema-page1{
-    padding-left: 40px;
-    border-left: 1px groove #f7f7f7;
-    border-right: 1px groove #f7f7f7;
-}
-#cinema .cinema-page1 img{
-    width: 400px;
-    height:200px;
-}
-#cinema .cinema-page1 p{
-    font-size: 12px;
-    padding-top: 10px;
-}
-#cinema .cinema-page2{
-    border-right: 1px groove #f7f7f7;
-}
-#cinema .cinema-page2 img{
-    width: 100px;
-    height:100px;
-}
-#cinema .cinema-page2 p{
-    font-size: 12px;
-    padding-left: 10px;
-}
-
-#cinema .cinema-page3{
-    border-right: 1px groove #f7f7f7;
-}
-#cinema .cinema-page3 img{
-    width: 100px;
-    height:100px;
-}
-#cinema .cinema-page3 p{
-    font-size: 12px;
-    padding-left: 10px;
-}
-#cinema .cinema-page4{
-  border-right: 1px groove #f7f7f7;
-}
-#cinema .cinema-page4 p{
-  font-size: 12px;
-  padding-top: 10px;
-}
-
-#allnews{
-  margin-left: 7%;
-  margin-top:50px;
-}
-#allnews .game{
-  border-left: 1px groove #f7f7f7;
-  border-right: 1px groove #f7f7f7;
-}
-#allnews .game img{
-  width:380px;
-  height:220px;
-  padding:5px;
-  align-items: center;
-}
-#allnews .game h6,i{
-  font-size: 20px;
-  padding: 15px;
-  font-weight: 800;
-}
-#allnews .game p{
-  font-size: 13px;
-  padding-top: 10px;
-}
-#allnews .india{
-  border-right: 1px groove #f7f7f7;
-}
-#allnews .india img{
-  width:250px;
-  height:150px;
-  align-items: center;
-}
-#allnews .india h6,i{
-  font-size: 20px;
-  padding: 15px;
-  font-weight: 800;
-  
-}
-#allnews .india p{
-  font-size: 13px;
-  padding-top: 10px;
-}
-#allnews .cini{
-  border-right: 1px groove #f7f7f7;
-}
-#allnews .cini img{
-  width:250px;
-  height:150px;
-  padding: 5px;
-  align-items: center;
-}
-#allnews .cini h6,i{
-  font-size: 20px;
-  padding: 15px;
-  font-weight: 800;
-}
-#allnews .cini p{
-  font-size: 13px;
-  padding-top: 10px;
-}
-#allnews .kalvi {
-  border-right: 1px groove #f7f7f7;
-}
-#allnews .kalvi img{
-  width:450px;
-  height:300px;
-  padding: 5px;
-  align-items: center;
-}
-#allnews .kalvi h6,i{
-  font-size: 20px;
-  padding: 15px;
-  font-weight: 800;
-}
-#allnews .kalvi p{
-  font-size: 13px;
-  padding-top: 10px;
-}
-
 #footer {
   color: white;
   font-size: 14px;
@@ -629,3 +358,8 @@ body {
   width: 100px;
   height: 100px;
 }
+
+   
+
+    
+ 
