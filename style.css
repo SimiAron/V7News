@@ -115,7 +115,9 @@ body {
       padding-top: 38px;
       margin-left: 20%;
     }
- 
+    .logos-align h6{
+      margin-left: 300%;
+    }
 
     .navbar .dropdown ul {
       display: block;
