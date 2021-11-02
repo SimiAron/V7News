@@ -266,7 +266,7 @@ body {
 }
 .tast {
   margin-left:30px;
-  width: 100%;
+  width: 90%;
   height: 50px;
   border: 1px solid black;
   position: relative;
@@ -290,19 +290,17 @@ marquee {
   background-color: red;
   text-align: center;
 }
-.scroll-bar{
-  margin-right: 5%;
+.logo{
+  margin-left: 30px;
+  width:200px;
+  height:180px;
+  padding-top: 3%;
 }
   #home{
     position: relative;
     display: inline-block;
   }
-   /* #home .logo{
-    margin-left: 30px;
-    width:180px;
-    height:180px;
-    padding-top: 3%;
-  }
+
 .scroll-bar{
     width:100%;
     padding:3px;
@@ -341,7 +339,7 @@ marquee {
   }*/
   #home .video-page{
     margin-left: 50px;
-    padding-top: 2%
+    padding-top: 3%
   }
   #home .video-page button{
     color: red;
