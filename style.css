@@ -107,7 +107,7 @@ body {
     color:black;
     } 
 
-     header page scrolling  
+     /*header page scrolling  */
 
     .navbar .dropdown ul {
       display: block;
@@ -247,19 +247,13 @@ body {
       display: block;
     }
   
-    #header .logos-align img{
-      padding-top: 38px;
-      margin-left: 10PX;
-    }
-    #header .logo{
-      margin-left: 4%;
+    #header img{
+      margin-left: 30PX;
       width:220px;
       height:220px;
-      padding-top: 3%;
+      padding-top: 10%;
     }
     #header .logos-align .img-content{
-      padding-left: 300%;
-      padding-top: 42px;
       justify-content: space-between;
     }
     #header .logos-align .img-content p{
@@ -269,8 +263,7 @@ body {
       font-weight:900;
 }
 #header .scrollbar {
-  margin-top: 10%;
-  width: 130%;
+  width: 200%;
   height: 50px;
   border: 1px solid black;
   position: relative;
@@ -300,7 +293,7 @@ body {
   }
   #home .video-page{
     margin-left: 50px;
-    padding-top: 12%
+    padding-top: 15%
   }
   #home .video-page button{
     color: red;
