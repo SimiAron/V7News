@@ -164,7 +164,7 @@ body {
     
     /**
     * Mobile Navigation 
-    */
+    
     .mobile-nav-toggle {
       color: #fff;
       font-size: 28px;
@@ -245,6 +245,13 @@ body {
     }
     .navbar-mobile .dropdown > .dropdown-active {
       display: block;
+    }*/
+    .navbar-style{
+      box-shadow: 0 5px 10px #dbe067;
+    }
+    .icon-bar{
+      color:violet;
+      background-color: violet;
     }
   
     #header img{

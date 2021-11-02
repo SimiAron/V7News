@@ -20,8 +20,8 @@
  
  
 <!--------CSS links----------->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="as/assets/vendor/bootstrap/css/bootstrap.min.css">
+
+  <!---<link rel="stylesheet" type="text/css" href="as/assets/vendor/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="as/assets/vendor/bootstrap-icons/bootstrap-icons.css">
   <link rel="stylesheet" type="text/css" href="as/assets/vendor/icofont/icofont.min.css">
   <link rel="stylesheet" type="text/css" href="as/assets/vendor/boxicons/css/boxicons.min.css">
@@ -31,8 +31,9 @@
   <link rel="stylesheet" type="text/css" href="as/assets/vendor/owl.carousel/assets/owl.carousel.min.css">
   <link rel="stylesheet" type="text/css" href="as/assets/vendor/aos/css/aos.css">
   <link rel="stylesheet" type="text/css" href="as/assets/vendor/glightbox/css/glightbox.min.css">
-  <link rel="stylesheet" type="text/css" href="as/assets/vendor/swiper/swiper-bundle.min.css">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="as/assets/vendor/swiper/swiper-bundle.min.css">--->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
 
   <link rel="stylesheet" type="text/css" href=".\style.css">
 </head>
@@ -40,8 +41,17 @@
 <body>
     <header id="header" class="fixed-top d-flex align-items-center">
       <div class="header-container d-flex align-items-center justify-content-between">
-            <nav id="navbar" class="navbar d-flex">
-              <ul>
+            <nav id="navbar" class="navbar d-flex navbar-style">
+
+              <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon">
+                    <span class="icon-bar"></span>      
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="micon">
+              <ul class="nav navbar-nav navbar-left">
                 <li><a class="nav-link scrollto active" href="#home">முகப்பு</a></li> 
                   <div class="dropdowns">
                     <a href="#recentnews" class="dropbtn">சற்றுமுன்</a>
@@ -82,7 +92,9 @@
                     <li class="social linkedin"><a href="https://www.linkedin.com" target="-blank"><i class="fa fa-linkedin"></i></a></li>
                     </ul>
               </ul>
-              <i class="bi bi-list mobile-nav-toggle"></i>
+              </div>
+            </div>
+              <!---<i class="bi bi-list mobile-nav-toggle"></i>--->
             </nav>         
           <div class="com-item d-flex logos-align">
             <div class="com-img">
@@ -515,8 +527,9 @@
 <script src="as/assets/vendor/glightbox/js/glightbox.min.js"></script>
 <script src="as/assets/vendor/swiper/swiper-bundle.min.js"></script>
 <script src="as/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="as/assets/vendor/purecounter/js/purecounter.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="as/assets/js/main.js"></script>
  <script>if( window.self == window.top ){(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-55234356-4', 'auto'); ga('send', 'pageview'); } </script>
 
