@@ -106,12 +106,9 @@ body {
     #header .navbar .socials li a:hover{
     color:black;
     } 
-    #header.logos-align-scrolled {
-      background: white;
-      box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-      top: 0;
-    }
-  
+
+    /* header page scrolling  */
+
     .navbar .dropdown ul {
       display: block;
       position: absolute;
@@ -250,33 +247,39 @@ body {
       display: block;
     }
   
-    .logos-align img{
+    #header .logos-align img{
       padding-top: 38px;
       margin-left: 10PX;
     }
-    .logos-align .img-content{
+    #header .logo{
+      margin-left: 30px;
+      width:220px;
+      height:220px;
+      padding-top: 3%;
+    }
+    #header .logos-align .img-content{
       padding-left: 300%;
       padding-top: 42px;
       justify-content: space-between;
     }
-    .logos-align .img-content p{
+    #header .logos-align .img-content p{
       font-size: 10px;
     }
-    .logos-align .img-content h6{
+    #header .logos-align .img-content h6{
       font-weight:900;
 }
-.tast {
-  margin-left:30px;
-  width: 90%;
+#header .scrollbar {
+  margin-top: 10%;
+  width: 200%;
   height: 50px;
   border: 1px solid black;
   position: relative;
 }
-marquee {
+#header marquee {
   font-size: 17px;
   line-height: 50px;
 }
-.tast::before{
+#header .scrollbar::before{
   content: "BREAKING NEWS";
   position: absolute;
   top: -1px;
@@ -291,62 +294,13 @@ marquee {
   background-color: red;
   text-align: center;
 }
-.logo{
-  margin-left: 30px;
-  width:200px;
-  height:180px;
-  padding-top: 3%;
-}
-
   #home{
     position: relative;
     display: inline-block;
   }
-
-/*.scroll-bar{
-    width:100%;
-    padding:3px;
-  }
-  .scroll-left{
-    height: 50px;
-    overflow: hidden;
-    position:relative;
-    background:white;
-    color:black;
-    border:1px solid black;
-  }
-  .scroll-left i{
-    color: red;
-    font-size: 23px;
-  }
-  .scroll-left p{
-    font-size: 15px;
-    font-weight: bold;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    line-height: 50px;
-    text-align: center;
-    transform: translateX(100%);
-    animation:scroll-left 15s linear infinite;
-  }
-  @keyframes scroll-left{
-    0%{
-      transform: translateX(100%);
-    }
-    100%{
-      transform: translateX(-100%);
-    }
-  }*/
-  #home1.home-scrolled {
-    background: white;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-    top: 0;
-  }
   #home .video-page{
     margin-left: 50px;
-    padding-top: 15%
+    padding-top: 12%
   }
   #home .video-page button{
     color: red;
@@ -385,54 +339,7 @@ marquee {
       visibility: visible;
     }
   }
-  .ticker {
-    padding-top: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 740px;
-    /*height: 20px;*/
-    margin: 0 auto;  
-  }
-  .news {
-    width: 76%;
-    height: 50px;
-    border:5px solid  #c81c1c;
-   /*background: black; */
-    padding: 0 2%;
-  }
-  .news p {
-    padding-top: 10px;
-  }
-  .title {
-    width: 20%;
-    height: 50px;
-    text-align: center;
-   background: #c81c1c;
-   color: white;
-    position: relative;
-  }
-  .title h5{
-    padding-top: 5px;
-  }
-  .title:after{
-    position: absolute;
-    content: "";
-    right: -16%;
-    /*border-left: 20px solid#c81c1c;
-    border-top: 33px solid transparent;
-    border-right: 20px solid transparent;
-    border-bottom: 33px solid transparent; */
-    top: 0;
-  }
-  .title h5{
-    font-size: 18px;
-    margin: 8% 0;
-  }
-  .news marquee{
-    font-size: 15px;
-
-  }
-
+  
   /*.scroll-left1{
     margin-top: 30px;
     height: 50px;
