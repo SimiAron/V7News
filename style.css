@@ -14,7 +14,7 @@ body {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   top: 0;
 }
-#header .navbar {
+/*#header .navbar {
     padding: 0;
     position: fixed;
     width: 100%;
@@ -90,7 +90,7 @@ body {
   #header .navbar .dropdowns:hover .dropdowns-content {display: block;}
   #header .navbar .socials li {
     display: inline-block;
-    /*line-height: 10px;*/
+    /*line-height: 10px;
     font-size: 18px;
     padding: 5px;
 
@@ -107,7 +107,7 @@ body {
     color:black;
     } 
 
-    /* header page scrolling  */
+    /* header page scrolling  
 
     .navbar .dropdown ul {
       display: block;
@@ -160,7 +160,7 @@ body {
       .navbar .dropdown .dropdown:hover > ul {
         left: -100%;
       }
-    }
+    }*/
     
     /**
     * Mobile Navigation 
