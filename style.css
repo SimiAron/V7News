@@ -338,6 +338,11 @@ marquee {
       transform: translateX(-100%);
     }
   }*/
+  #home1.home-scrolled {
+    background: white;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    top: 0;
+  }
   #home .video-page{
     margin-left: 50px;
     padding-top: 3%
