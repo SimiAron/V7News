@@ -249,14 +249,13 @@ body {
     .navbar-mobile .dropdown > .dropdown-active {
       display: block;
     }
-    .logos-align{
+    .logos-align img{
       padding-top: 38px;
       margin-left: 10PX;
-      list-style: none;
     }
     .logos-align .img-content{
       padding-left: 300%;
-      padding-top: 30px;
+      padding-top: 42px;
       justify-content: space-between;
     }
     .logos-align .img-content p{
@@ -266,15 +265,10 @@ body {
       font-weight:900;
 }
 .tast {
-  
-  margin-top: 10%;
   width: 300%;
   height: 50px;
   border: 1px solid black;
   position: relative;
-}
-.tast #header{
-  position: fixed;
 }
 marquee {
   font-size: 17px;
@@ -346,7 +340,7 @@ marquee {
   }*/
   #home .video-page{
     margin-left: 50px;
-    padding-top: 13%;
+    padding-top: 5
   }
   #home .video-page button{
     color: red;
