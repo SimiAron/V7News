@@ -156,8 +156,9 @@ body {
   }
   #header .navbar .socials li {
     display: inline-block;
-    line-height: 50px;
+    line-height: 10px;
     padding: 5px;
+
     }
     #header .navbar .socials li a {
     border-right: 1px solid white;
@@ -170,6 +171,8 @@ body {
     #header .navbar .socials li a:hover{
     color:black;
     } 
+
+    
     
     /**
     * Mobile Navigation 
@@ -255,127 +258,15 @@ body {
     .navbar-mobile .dropdown > .dropdown-active {
       display: block;
     }
-.mainpage{
-      margin-left: 50px;
-      margin-top: 10%;
-    }
-    .recent {
-      margin-left: 85px;
-      padding-top: 350px;
-    }
-    .recent img {
-      width: 300px;
 
+    #header .logos-align img{
+      margin-left: 50PX;
+      padding-top: 10%;
     }
-    .recent p{
-      width: 350px;
-      font-size: 13px;
-      padding-top: 10px;
-    }
-   .cinemapage img{
-      width: 150px;
-      height: 100px;    
+    #header .word h6{
+      font-size: 20px;
+      font-weight:900;
   }
-  .cinemapage p{
-    width: 200px;
-    padding-left: 5px;
-    color: black;
-    
-  }
-  .cinemapage a {
-    color: black;
-  }
-  .cinemapage img-content p{
-      font-size: 12px;
-      /*padding-left: 10px;*/
-  }
-    .main {
-      border: 0.1px groove #fffcfc;
-      padding: 10px 15px;
+    #header .word p{
+      font-size: 10px;
     }
-    .main h3{
-      padding-top: 10px;
-    }
-   .main img{
-     padding-top: 20px;
-     /*width:350px;
-     height:200px;*/
-   }
-   .main p{
-     padding-top: 20px;
-   }
-   
-   .big {
-     padding-top: 350px;
-   }
-   .big img {
-     width: 350px;
-   }
-   .big p{
-     font-size: 13px;
-     width: 350px;
-   }
-   .bigstory img{
-    width: 150px;
-    height: 100px;    
-}
-.bigstory p{
-  width: 200px;
-  padding-left: 5px; 
-}
-.bigstory a {
-  color: black;
-}
-#footer {
-  color: white;
-  font-size: 14px;
-  background: black;
-}
-#footer img{
-  width: 200px;
-  height: 200px;
-  padding: 30px;
-  margin-left: 30px;
-
-}
-#footer h3{
-  padding-top: 30px;
-  font-size: 20px;
-  font-weight: bold;
-}
-#footer p{
-  color:white;
-  padding:5px;
-}
-#footer span{
-  color: red;
-  font-size: 24px;
-}
-#footer .social-link{
-  padding-top: 12px;
-  color:white;
-  padding:5px;
-}
-#footer .social-link a{
-  color: black;
-  font-size: 30px;
-  padding:5px;
-  background:white;
-}
-#footer .social-link h3{
-  margin-left: 18%;
-}
-#footer .footer-contact h5{
-  font-size: 15px;
-  margin-left: 80%;
-}
-#footer .footer-contact img{
-  width: 150px;
-  height: 150px;
-}
-
-
-   
-
-    
- 
