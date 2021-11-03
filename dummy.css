@@ -270,3 +270,58 @@ body {
     #header .word p{
       font-size: 10px;
     }
+    .middle{
+        padding-top: 10%;
+    }
+    .middle h5{
+        color:#fff;
+    }
+    #footer {
+        margin-top: 10%;
+        color: white;
+        font-size: 14px;
+        background: black;
+      }
+      #footer img{
+        width: 200px;
+        height: 200px;
+        padding: 30px;
+        margin-left: 30px;
+      
+      }
+      #footer h3{
+        padding-top: 30px;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      #footer p{
+        color:white;
+        padding:5px;
+      }
+      #footer span{
+        color: red;
+        font-size: 24px;
+      }
+      #footer .social-link{
+        padding-top: 12px;
+        color:white;
+        padding:5px;
+      }
+      #footer .social-link a{
+        color: black;
+        font-size: 30px;
+        padding:5px;
+        background:white;
+      }
+      #footer .social-link h3{
+        margin-left: 18%;
+      }
+      #footer .footer-contact h5{
+        font-size: 15px;
+        margin-left: 80%;
+      }
+      #footer .footer-contact img{
+        width: 150px;
+        height: 150px;
+      }
+      
