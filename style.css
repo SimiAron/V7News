@@ -255,19 +255,18 @@ body {
       padding-top: 10%;
     }
     #header .img-content{
-      margin-top: 20%;
       float: right;
     }
-    #header .logos-align p{
+    #header p{
       font-size: 10px;
     }
-    #header .logos-align h6{
+    #header h6{
       font-weight:900;
 }
 #header .scrollbar {
   margin-top: 10%;
-  margin-left: 3%;
-  width: 270%;
+  margin-left: 10%;
+  width: 150%;
   height: 50px;
   border: 1px solid black;
   position: relative;
