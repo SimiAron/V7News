@@ -339,11 +339,18 @@ body {
     width:90px;
     height:50px;
   }
+  .seithi h5{
+    font-size: 20px;
+    font-weight: 900;
+  }
   .seithi p{
     font-size: 12px;
     padding-left: 7px;
   }
-
+.recent-news h5{
+  font-size: 20px;
+  font-weight: 900;
+}
   .recent-news img{
     width:90px;
     height:50px;
@@ -360,7 +367,11 @@ body {
   }
   .recent-head img{
     width:90px;
-    height:50px;
+    height:70px;
+  }
+  .recent-head h6{
+    font-size: 20px;
+    font-weight: 900;
   }
   .recent-head p{
     font-size:12px;
@@ -389,6 +400,7 @@ body {
   padding-top: 15px;
   font-size: 15px;
   width: 350px;
+  font-weight: 900;
 }
 #tamilnadu .tamil-page p{
   font-size: 13px;
@@ -428,6 +440,9 @@ body {
 #tamilnadu .arasiyal-page p{
   font-size: 13px;
   width: 350px;
+}
+#tamilnadu .arasiyal-page h6{
+  font-weight: 900;
 }
 
 #tamilnadu .arasiyal-content img {
