@@ -305,9 +305,12 @@ body {
   background-color: red;
   text-align: center;
 }
-    .mainpage{
+.main{
+  margin-top: 10%;
+}    
+.mainpage{
       margin-left: 50px;
-      padding-top: 50px;
+      margin-top: 10%;
     }
     .recent {
       margin-left: 85px;
