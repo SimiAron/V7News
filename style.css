@@ -248,23 +248,21 @@ body {
       display: block;
     }
 
-    #header img{
+    #header .logos-align img{
       margin-left: 50PX;
-      width:220px;
-      height:220px;
       padding-top: 10%;
     }
-
-    #header p{
+    #header .word h6{
+      font-size: 20px;
+      font-weight:900;
+  }
+    #header .word p{
       font-size: 10px;
     }
-    #header h6{
-      font-weight:900;
-}
+   
 #header .scrollbar {
-  margin-top: 3%;
-  margin-left: 10%;
-  width: 80%;
+  margin-top: 1%;
+  width: 90%;
   height: 50px;
   border: 1px solid black;
   position: relative;
@@ -294,7 +292,7 @@ body {
   }
   #home .video-page{
     margin-left: 50px;
-    padding-top: 11%
+    padding-top: 13%
   }
   #home .video-page button{
     color: red;
