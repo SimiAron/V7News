@@ -254,9 +254,7 @@ body {
       height:220px;
       padding-top: 10%;
     }
-    #header .img-content{
-      float: right;
-    }
+
     #header p{
       font-size: 10px;
     }
@@ -264,7 +262,7 @@ body {
       font-weight:900;
 }
 #header .scrollbar {
-  margin-top: 10%;
+  margin-top: 3%;
   margin-left: 10%;
   width: 150%;
   height: 50px;
@@ -624,22 +622,24 @@ body {
   font-size: 24px;
 }
 #footer .social-link{
-  font-size: 10px;
+  padding-top: 12px;
   color:white;
-  padding:10px;
+  padding:5px;
 }
 #footer .social-link a{
   color: black;
   font-size: 30px;
-  padding:10px;
-  border-radius: 25 px;
+  padding:5px;
   background:white;
+}
+#footer .social-link h3{
+  margin-left: 18%;
 }
 #footer .footer-contact h5{
   font-size: 15px;
-  margin-left: 70%;
+  margin-left: 80%;
 }
 #footer .footer-contact img{
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
