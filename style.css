@@ -262,13 +262,21 @@ body {
    
 #header .scrollbar {
   margin-top: 1%;
-  width: 90%;
+  width: 95%;
   height: 50px;
   border: 1px solid black;
   position: relative;
 }
+#header .scrollbar i{
+  font-weight: 900;
+  color: red;
+}
+#header .scrollbar span{
+  color:black;
+  font-weight: 900;
+}
 #header marquee {
-  font-size: 17px;
+  font-size: 15px;
   line-height: 50px;
 }
 #header .scrollbar::before{
