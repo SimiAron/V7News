@@ -305,8 +305,8 @@ body {
     display: inline-block;
   }
   #home .video-page{
-    /*margin-left: 120px;*/
-    padding-top: 13%
+    margin-left: 120px;
+    padding-top: 16%
   }
   #home .video-page button{
     color: red;
@@ -346,7 +346,7 @@ body {
     }
   }
   .seithi{
-    /*margin-left: 70px;*/
+    margin-left: 70px;
   }
   .seithi img{
     width:90px;
@@ -401,10 +401,48 @@ body {
   }
   * {
     box-sizing: border-box; 
-} 
-#tamilnadu{
-  margin-left: 20px;
 }
+
+/*#tamil-arasiyal{
+  margin-top: 6%;
+  margin-left: %;
+  
+}
+#tamil-arasiyal h6,i{
+  padding-left: 20px;
+  padding-top: 15px;
+  font-weight: 800;
+  font-size: 20px;
+}
+#tamil-arasiyal .tamil-page1{
+  padding-left: 25px;
+  border-left: 1px groove #f7f7f7;
+  border-right: 1px groove #f7f7f7;
+}
+#tamil-arasiyal .tamil-page1 img{
+  width: 100px;
+  height:200px;
+}
+#tamil-arasiyal .tamil-page1 p{
+  font-size: 12px;
+  padding-top: 10px;
+}
+#tamil-arasiyal .tamil-page2{
+  border-right: 1px groove #f7f7f7;
+}
+#tamil-arasiyal .tamil-page2 img{
+  width: 100px;
+  height:100px;
+}
+#tamil-arasiyal .tamil-page2 p{
+  font-size: 12px;
+  padding-left: 10px;
+}*/
+
+
+
+
+
 #tamilnadu .tamil {
   margin-left: 7%;
   border: 2px groove #f7f7f7;
@@ -484,7 +522,7 @@ body {
   width: 450px;
 }
 #cinema{
-    margin-top: 5px;
+    margin-top: 6%;
     margin-left: 7%;
     
 }
