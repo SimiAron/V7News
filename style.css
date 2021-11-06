@@ -19,7 +19,7 @@ body {
     padding: 0;
     position: fixed;
     width: 100%;
-    background-color: black;
+    background-color:black;
     left: 0;
     top: 0;
     justify-content: space-between;
@@ -308,7 +308,7 @@ body {
     display: inline-block;
   }
   #home .video-page{
-    margin-left: 50px;
+    margin-left: 120px;
     padding-top: 13%
   }
   #home .video-page button{
@@ -348,6 +348,9 @@ body {
       visibility: visible;
     }
   }
+  .seithi{
+    margin-left: 70px;
+  }
   .seithi img{
     width:90px;
     height:50px;
@@ -359,6 +362,9 @@ body {
   .seithi p{
     font-size: 12px;
     padding-left: 7px;
+  }
+  .recent-news{
+    margin-left: 20px;
   }
 .recent-news h5{
   font-size: 20px;
@@ -399,7 +405,9 @@ body {
   * {
     box-sizing: border-box; 
 } 
-
+#tamilnadu{
+  margin-left: 20px;
+}
 #tamilnadu .tamil {
   margin-left: 7%;
   border: 2px groove #f7f7f7;
@@ -480,7 +488,7 @@ body {
 }
 #cinema{
     margin-top: 5px;
-    margin-left: 6%;
+    margin-left: 7%;
     
 }
 #cinema h6,i{
@@ -490,7 +498,7 @@ body {
     font-size: 20px;
 }
 #cinema .cinema-page1{
-    padding-left: 40px;
+    padding-left: 25px;
     border-left: 1px groove #f7f7f7;
     border-right: 1px groove #f7f7f7;
 }
@@ -596,7 +604,7 @@ body {
   border-right: 1px groove #f7f7f7;
 }
 #allnews .kalvi img{
-  width:450px;
+  width:500px;
   height:300px;
   padding: 5px;
   align-items: center;
@@ -617,8 +625,8 @@ body {
   background: black;
 }
 #footer img{
-  width: 200px;
-  height: 200px;
+  width: 230px;
+  height: 230px;
   padding: 30px;
   margin-left: 30px;
 
@@ -634,7 +642,7 @@ body {
 }
 #footer span{
   color: red;
-  font-size: 24px;
+  font-size: 20px;
 }
 #footer .social-link{
   padding-top: 12px;
@@ -650,11 +658,12 @@ body {
 #footer .social-link h3{
   margin-left: 18%;
 }
-#footer .footer-contact h5{
+/*#footer .footer-contact h5{
   font-size: 15px;
   margin-left: 80%;
-}
+}*/
 #footer .footer-contact img{
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
+  float: right;
 }
