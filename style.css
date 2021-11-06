@@ -37,7 +37,7 @@ body {
   #header .navbar a, .navbar a:focus {
     display: flex;
     justify-content: space-between;
-    padding: 12px;
+    padding: 13px;
     color: white;
     transition: 0.3s;
     font-size: 13px;
@@ -48,14 +48,12 @@ body {
   #header .navbar a i, #header .navbar a:focus i {
     font-size: 10px;
     line-height: 0;
-    padding-top: 5px;
+    padding-top: 6px;
   }
   #header .navbar .active, #header .navbar .active:focus, #header .navbar li:hover > a {
     color: red;
     font-weight: bold;
   }
-
-
   #header .navbar a:hover{
     color: black;
     background:white;
