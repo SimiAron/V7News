@@ -41,12 +41,12 @@
     <header id="header" class="fixed-top d-flex align-items-center">
       <div class="header-container d-flex align-items-center justify-content-between">
             <nav id="navbar" class="navbar">
-              <ul>
+              <ul class="topnav" id="myTopnav">
                 <li><a class="nav-link scrollto active" href="index.html">முகப்பு</a></li> 
                   <div class="dropdowns">
                     <a href="#recentnews" class="dropbtn">சற்றுமுன்</a>
                     <div class="dropdowns-content">
-                      <a href="satrumun.html">சற்றுமுன்</a>
+                      <a href="satrumun.html" target="_blank">சற்றுமுன்</a>
                       <a href="#">அதிகம் பார்தவை</a>
                     </div>
                   </div> 
@@ -82,7 +82,8 @@
                     <li class="social linkedin"><a href="https://www.linkedin.com" target="-blank"><i class="fa fa-linkedin"></i></a></li>
                   </ul>
               </ul>
-              <i class="bi bi-list mobile-nav-toggle"></i>
+              <a href="javascript:vooid(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i></a>
             </nav>
                    
           <div class="com-item logos-align">
@@ -104,6 +105,16 @@
                 <p>புதன், நவம்பர் 3,2021 ஐப்பசி 17,பிலவ வருடம்</p>
           </div>
         </div>
+        <script>
+          function myFunction(){
+            var x=document.getElementById("myTopnav");
+            if(x.className === "topnav"){
+            x.className +="responsive";
+            }else{
+              x.className = "topnav";
+            }
+          }
+        </script>
         </header>
 
         <!---<section id="home1">  
