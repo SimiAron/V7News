@@ -307,11 +307,11 @@ body {
   text-align: center;
 }
 .mainpage{
-    margin-left: 85px;
+    margin-left: 60px;
     padding-top: 100px;
 }
 .recent {
-    margin-left: 85px;
+    margin-left: 20px;
     padding-top: 350px;
 }
 .recent img {
@@ -347,6 +347,8 @@ body {
      padding-top: 10px;
    }
   .main img{
+    width: 500px;
+    height: 400px;
     padding-top: 20px;
   }
   .main p{
@@ -365,6 +367,7 @@ body {
   }
   .big {
     padding-top: 350px;
+
   }
   .big img {
     width: 350px;
@@ -430,5 +433,6 @@ body {
   #footer .footer-contact img{
     width: 150px;
     height: 150px;
+    float: right;
   }
   
