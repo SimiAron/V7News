@@ -304,14 +304,21 @@ body {
     position: relative;
     display: inline-block;
   }
-  #home .video-page{
-    margin-left: 120px;
-    padding-top: 16%
+  #home .container{
+    text-align: center;
+    align-items: center;
+    margin-left: 10%;
   }
+  #home .video-page{
+    /*margin-left: 120px;*/
+    padding-top: 35%
+  }
+  
   #home .video-page button{
     color: red;
     font-size: 20px;
   }
+
   .mySlides {
     display:none;
   }
@@ -346,7 +353,7 @@ body {
     }
   }
   .seithi{
-    margin-left: 70px;
+    /*margin-left: 70px;*/
   }
   .seithi img{
     width:90px;
@@ -361,7 +368,7 @@ body {
     padding-left: 7px;
   }
   .recent-news{
-    margin-left: 20px;
+    /*margin-left: 20px;*/
   }
 .recent-news h5{
   font-size: 20px;
@@ -377,7 +384,7 @@ body {
   }
 
   .recent-head{
-    margin-left: 5px;
+    /*margin-left: 5px;*/
     margin-top:5px;
    /* border: 1px solid #dbd8d7;*/
   }
