@@ -15,7 +15,108 @@ body {
   top: 0;
 }
 
-#header .navbar {
+header .navbar{
+  position: fixed;
+  top: 0; left: 0; right: 0;
+ background: black;
+ color: white;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+header .navbar ul{
+  list-style: none;
+}
+header .navbar ul li{
+  position: relative;
+  float: left;
+}
+header .navbar ul li a{
+  font-size: 13px;
+  padding: 15px;
+  color: white;
+  display: block;
+}
+
+header .navbar ul li a:hover{
+  background: #333;
+  color: #fff;
+  /*background: black;
+  color: #fff;
+  padding: 10px;*/
+}
+header .navbar ul li ul{
+
+  position: absolute;
+  left: 0;
+ /* width: 100px;*/
+ padding: 10px;
+  background: black;
+  display: none;
+}
+header .navbar ul li ul li{
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+}
+header .navbar ul li ul li ul{
+  left: 100px;
+  top: 0;
+}
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul{
+  display: initial;
+}
+#menu-bar{
+  display: none;
+}
+header label{
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+ display: none;
+}
+
+
+
+@media(max-width:991px){
+
+  header{
+      padding: 20px;
+  }
+
+  header label{
+      display: initial;
+  }
+  header .navbar{
+      position: absolute;
+      /*top: 100%; left: 0; right: 0;*/
+      background: black;
+      color: white;
+      border-top: 1px solid rgba(0, 0, 0, .1);
+      display: none;
+  }
+  header .navbar ul li{
+      width: 100%;
+  }
+  header .navbar ul li ul{
+      position: relative;
+      width: 100%;
+  }
+  header .navbar ul li ul li{
+      background: black;
+      color: white;
+  }
+  header .navbar ul li ul li ul {
+      width: 100%;
+      left: 0;
+  }
+  #menu-bar:checked ~ .navbar{
+      display: initial;
+  }
+}
+/*#header .navbar {
     padding: 0;
     position: fixed;
     width: 100%;
@@ -33,7 +134,6 @@ body {
   #header .navbar li {
     position: relative;
   }
- 
   #header .navbar a, .navbar a:focus {
     display: flex;
     justify-content: space-between;
@@ -58,7 +158,7 @@ body {
     color: black;
     background:white;
   }
-   /*header page scrolling  */
+   /*header page scrolling  
 
    .navbar .dropdown ul {
     display: block;
@@ -114,7 +214,7 @@ body {
   }
 
 
-  /*****dropdown style*****/
+  /*****dropdown style***
 
   #header .navbar .dropbtn {
     background-color: black;
@@ -147,8 +247,8 @@ body {
   
   #header .navbar .dropdowns-content a:hover {background-color:black;}
   
-  #header .navbar .dropdowns:hover .dropdowns-content {display: block;}
-  #header .navbar .socials{
+  #header .navbar .dropdowns:hover .dropdowns-content {display: block;}*/
+  #header .navbar .socials {
     margin-left: 6%;
     padding-top: 10px;
   }
@@ -168,7 +268,7 @@ body {
     }
     #header .navbar .socials li a:hover{
     color:black;
-    } 
+    } */
  
     /**
     * Mobile Navigation 
@@ -254,6 +354,7 @@ body {
     .navbar-mobile .dropdown > .dropdown-active {
       display: block;
     }
+  
     #header .logos-align img{
       margin-left: 50PX;
       padding-top: 10%;
@@ -304,16 +405,13 @@ body {
     position: relative;
     display: inline-block;
   }
-  #home .container{
-    text-align: center;
-    align-items: center;
-    margin-left: 10%;
-  }
+ #home .content{
+  margin-left: 10%;
+ }
   #home .video-page{
     /*margin-left: 120px;*/
-    padding-top: 35%
+    padding-top: 15%
   }
-  
   #home .video-page button{
     color: red;
     font-size: 20px;
