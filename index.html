@@ -40,87 +40,51 @@
   <body>
     <header id="header" class="fixed-top d-flex align-items-center">
       <div class="header-container d-flex align-items-center justify-content-between">
-      <input type="checkbox" id="menu-bar">
-      <label for="menu-bar">Menu</label>
-      <nav class="navbar">
+        <nav id="navbar" class="navbar">
           <ul>
-              <li><a href="#">முகப்பு</a></li>                  
-              <li><a href="#">சற்றுமுன்</a>
-              <ul>
-                  <li><a href="#">சற்றுமுன்</a></li>
-                  <li><a href="#">அதிகம் பார்தவை</a></li>
-                  </ul>
-                  </li>
-                  <li><a href="#">உலகம்</a></li>
-                  <li><a href="#">இந்தியா</a></li>
-                  <li><a href="#">தமிழ்நாடு</a>
-                  <ul>
-                      <li><a href="#">புதுச்சேரி</a></li>
-                      <li><a href="#">மாவட்டம்</a>
-                      <ul>
-                          <li><a href="#">சென்னை</a></li>
-                          <li><a href="#">அரியலூர்</a></li>
-                          <li><a href="#">செங்கல்பட்டு</a></li>
-                          <li><a href="#">கோயம்புத்தூர்</a></li>
-                          <li><a href="#">கடலூர்</a></li>
-                          <li><a href="#">தர்மபுரி</a></li>
-                          <li><a href="#">திண்டுக்கல்</a></li>
-                          <li><a href="#">ஈரோடு</a></li>
-                          <li><a href="#">காஞ்சிபுரம்</a></li>
-                          <li><a href="#">கள்ளக்குறிச்சி</a></li>
-                          <li><a href="#">கன்னியாகுமரி</a></li>
-                          <li><a href="#">கரூர்</a></li>
-                          <li><a href="#">கிருஷ்ணகிரி</a></li>
-                          <li><a href="#">மதுரை</a></li>
-                          <li><a href="#">மயிலாடுதுறை</a></li>
-                          <li><a href="#">நாகப்பட்டினம்</a></li>
-                          <li><a href="#">நாமக்கல்</a></li>
-                          <li><a href="#">நீலகிரி</a></li>
-                          <li><a href="#">பெரம்பலூர்</a></li>
-                          <li><a href="#">புதுக்கோட்டை</a></li>
-                          <li><a href="#">ராமநாதபுரம்</a></li>
-                          <li><a href="#">ராணிப்பேட்டை</a></li>
-                          <li><a href="#">சேலம்</a></li>
-                          <li><a href="#">சிவகங்கை</a></li>
-                          <li><a href="#">தஞ்சாவூர்</a></li>
-                          <li><a href="#">தென்காசி</a></li>
-                          <li><a href="#">தேனி</a></li>
-                          <li><a href="#">திருச்சி</a></li>
-                          <li><a href="#">திருநெல்வேலி</a></li>
-                          <li><a href="#">திருப்பத்தூர்</a></li>
-                          <li><a href="#">திருவாரூர்</a></li>
-                          <li><a href="#">தூத்துக்குடி</a></li>
-                          <li><a href="#">திருப்பூர்</a></li>
-                          <li><a href="#">திருவள்ளூர்</a></li>
-                          <li><a href="#">திருவண்ணாமலை</a></li>
-                          <li><a href="#">வேலூர்</a></li>
-                          <li><a href="#">விழுப்புரம்</a></li>
-                          <li><a href="#">விருதுநகர்</a></li>
-                      </ul>
-                  </li>
-                  </ul></li>
-                  <li><a href="#">அரசியல்</a></li>
-                  <li><a href="#">சினிமா</a>
-                  <ul>
-                      <li><a href="#">திரைவிமர்சனம்</a></li>  
-                      <li><a href="#">வீடியோ</a></li>  
-                  </ul></li>
-                  <li><a href="#">மருத்துவம்</a></li>
-                  <li><a href="#">வணிகம்</a></li>
-                  <li><a href="#">கல்வி</a></li>
-                  <li><a href="#">ஆண்மீகம்</a></li>
-                  <li><a href="#">விளையாட்டு</a></li>
-                  <li><a href="#">சுற்றுலா</a></li>
-                  <li><a href="#">வீடியோ</a></li>                          
-              </ul>  
+            <li><a class="nav-link scrollto active" href="index.html">முகப்பு</a></li> 
+              <div class="dropdowns">
+                <a href="#recentnews" class="dropbtn">சற்றுமுன்</a>
+                <div class="dropdowns-content">
+                  <a href="satrumun.html" target="_blank">சற்றுமுன்</a>
+                  <a href="#">அதிகம் பார்தவை</a>
+                </div>
+              </div> 
+              <li><a class="nav-link scrollto" href="#உலகம்">உலகம்</a></li>
+              <li><a class="nav-link scrollto" href="#இந்தியா">இந்தியா</a></li>
+            <div class="dropdowns">
+                <a href="#arasiyal" class="dropbtn">தமிழ்நாடு</a>
+                <div class="dropdowns-content">
+                  <a href="puthucheri.html" target="_blank">புதுச்சேரி</a>
+                 <a href="#" >மாவட்டம்</a>
+              </div> 
+            </div>                 
+            <li><a class="nav-link scrollto" href="#">அரசியல்</a></li>
+            <div class="dropdowns">
+              <a href="#" class="dropbtn">சினிமா</a>
+                <div class="dropdowns-content">
+                  <a href="#">திரைவிமர்சனம்</a>
+                  <a href="#">வீடியோ</a>
+                </div>
+              </div>
+              <li><a class="nav-link scrollto" href="#மருத்துவம்">மருத்துவம்</a></li>
+              <li><a class="nav-link scrollto" href="#வணிகம்">வணிகம்</a></li>
+              <li><a class="nav-link scrollto" href="#கல்வி">கல்வி</a></li>
+              <li><a class="nav-link scrollto" href="#ஆண்மீகம்">ஆண்மீகம்</a></li>
+              <li><a class="nav-link scrollto" href="#விளையாட்டு">விளையாட்டு</a></li>
+              <li><a class="nav-link scrollto" href="#சுற்றுலா">சுற்றுலா</a></li>
+              <li><a class="nav-link scrollto" href="#வீடியோ">வீடியோ</a></li>
               <ul class="socials pull-right visible-desktop">
-                  <li class="social facebook"><a href="https://www.facebook.com" target="-blank"><i class="fa fa-facebook"></i></a></li>
-                  <li class="social twitter"><a href="https://www.twitter.com" target="-blank"><i class="fa fa-twitter"></i></a></li>
-                  <li class="social google_plus"><a href="https://www.google.com" target="-blank"><i class="fa fa-google-plus"></i></a></li>
-                  <li class="social youtube"><a href="https://www.youtube.com" target="-blank"><i class="fa fa-youtube"></i></a></li>
-                  <li class="social linkedin"><a href="https://www.linkedin.com" target="-blank"><i class="fa fa-linkedin"></i></a></li>
-                </ul>        
-      </nav>
+                <li class="social facebook"><a href="https://www.facebook.com" target="-blank"><i class="fa fa-facebook"></i></a></li>
+                <li class="social twitter"><a href="https://www.twitter.com" target="-blank"><i class="fa fa-twitter"></i></a></li>
+                <li class="social google_plus"><a href="https://www.google.com" target="-blank"><i class="fa fa-google-plus"></i></a></li>
+                <li class="social youtube"><a href="https://www.youtube.com" target="-blank"><i class="fa fa-youtube"></i></a></li>
+                <li class="social linkedin"><a href="https://www.linkedin.com" target="-blank"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+          </ul> 
+          <i class="fa fa-bars mobile-nav-toggle"></i>         
+                      
+            </nav>
                    
           <div class="com-item logos-align">
             <div class="com-img">
@@ -166,7 +130,7 @@
           </section>--->
       <section id="home"  class="content">
         <div class="">
-            <div class="row video-page align-items-right">
+            <div class="row video-page ">
               <div class="col-lg-5 video-line">
               <button><blink>LIVE*</blink></button>
           <div class="content section" style="max-width:1100px">
@@ -339,7 +303,6 @@
                 <br>
                 நீதிபதிக்கு மட்டுமே அறை ஒதுக்கப்படும், எனவே அறை தர முடியாது என்று கூறியுள்ளார்.இதனால் ஆத்திரம் அடைந்த 6 பேரும் காவலாளி சதாம் சேட்டை அடித்து, கல்லால் தாக்கியதாக கூறப்படுகிறது. 
               </p>
-              <p>“சுபாஷ் பண்ணையார் ஆதரவாளார்களால் தனக்கு அச்சுறுத்தல் இருப்பதாக கூறி அளித்த புகாரின் அடிப்படையில், பில்லா ஜெகனுக்கு போலீஸ் பாதுகாப்பு .</p>
          </div>
          <div class="col-md-3 arasiyal-page1"> 
           <img src="image/1stnov/arasiyal2.jpg">
