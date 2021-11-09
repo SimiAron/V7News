@@ -8,7 +8,7 @@ body {
   visibility: hidden;
   opacity: 0;
   right: 15px;
-  bottom: 15px;
+  bottom: 100px;
   z-index: 996;
   background: black;
   color: white;
@@ -98,7 +98,7 @@ body {
   color: black;
   background:white;
 }
- /*header page scrolling  */
+ /*header page scrolling */ 
 
  .navbar .dropdown ul {
   display: block;
@@ -154,7 +154,7 @@ body {
 }
 
 
-/*****dropdown style*****/
+/*****dropdown style****/
 
 #header .navbar .dropbtn {
   background-color: black;
@@ -209,10 +209,10 @@ body {
   #header .navbar .socials li a:hover{
   color:black;
   } 
-
+*/
   /**
-  * Mobile Navigation 
-  */
+  * Mobile Navigation */
+  
   .mobile-nav-toggle {
     color: #fff;
     font-size: 28px;
