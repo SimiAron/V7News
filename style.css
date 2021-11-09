@@ -443,91 +443,14 @@ body {
   width: 200px;
   height: 100px;
 }
-#tamil-arasiyal .arasiyal-page2 img{
+#tamil-arasiyal .arasiyal-page2 img,video{
   width: 200px;
   height: 100px;
 }
 #tamil-arasiyal .arasiyal-page,.arasiyal-page1,.arasiyal-page2 p{
   font-size: 13px;
 }
-/*#tamilnadu .tamil {
-  margin-left: 7%;
-  border: 2px groove #f7f7f7;
-  padding: 10px;
-}
-#tamilnadu .tamil-page img {
-  width: 350px;
 
-}
-#tamilnadu .tamil-page h6 {
-  padding-top: 15px;
-  font-size: 15px;
-  width: 350px;
-  font-weight: 900;
-}
-#tamilnadu .tamil-page p{
-  font-size: 13px;
-  width: 350px;
-}
-#tamilnadu .tamil-content img {
-  width: 300px;
-  padding-left: 100px;
-}
-#tamilnadu .tamil-content p {
-  font-size: 12px;
-  padding-left: 100px;
-  width: 300px;
-  padding-top: 10px;
-}
-#tamilnadu .tamil-content1 img {
-  width: 450px;
-  padding-left: 280px;
-}
-#tamilnadu .tamil-content1 p {
-  font-size: 13px;
-  padding-left: 280px;
-  width: 450px;
-}
-#tamilnadu .arasiyal {
-  border: 2px groove #f7f7f7;
-  padding: 10px;
-}
-#tamilnadu .arasiyal-page img {
-  width: 350px;
-}
-#tamilnadu .arasiyal-page h6 {
-  padding-top: 15px;
-  font-size: 15px;
-  width: 350px;
-}
-#tamilnadu .arasiyal-page p{
-  font-size: 13px;
-  width: 350px;
-}
-#tamilnadu .arasiyal-page h6{
-  font-weight: 900;
-}
-
-#tamilnadu .arasiyal-content img {
-  width: 300px;
-  padding-left: 100px;
-}
-
-#tamilnadu .arasiyal-content p {
-  font-size: 12px;
-  padding-left: 100px;
-  width: 300px;
-  padding-top: 10px;
-}
-#tamilnadu .arasiyal-content1 img {
-  width: 450px;
-  padding-left: 280px;
-}
-#tamilnadu .arasiyal-content1 p{
-  font-size: 13px;
-  padding-left: 280px;
-  width: 450px;
-}*/
 #cinema{
     margin-top: 6%;
     margin-left: 7%;
