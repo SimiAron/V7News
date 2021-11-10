@@ -383,7 +383,7 @@ header label{
         background: black;
         border-top: 1px solid rgba(0, 0, 0, .1);
         display: none;
-        line-height: 10px;
+        line-height: 70px;
     }
     header .navbar ul li{
         width: 100%;
