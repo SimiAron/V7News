@@ -1,631 +1,709 @@
 <!DOCTYPE html>
-<html>
+<!--
+	24 News by FreeHTML5.co
+	Twitter: https://twitter.com/fh5co
+	Facebook: https://fb.com/fh5co
+	URL: https://freehtml5.co
+-->
+<html lang="en" class="no-js">
+  <!----   Heading Section    ------->
+
 <head>
-	<meta charset="utf-8">
-	<meta content="width=device-width,initial-scale=1.0" name="viewport">
-
-	<title>V7 செய்திகள்</title>
-
-	<meta name="robots" content="noindex, nofollow">
-	<meta content="" name="description"> 
-	<meta content="" name="keywords">
-
-<!--------favicons---------->
-
-	<link  href="assets/image/favicon.png" rel="icon">
-
-<!--------- Google Fonts----->
-
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
- 
- 
-<!--------CSS links----------->
-
-  <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
-  <link rel="stylesheet" type="text/css" href="assets/vendor/icofont/icofont.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/vendor/boxicons/css/boxicons.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/vendor/remixicon/remixicon.css">
-  <link rel="stylesheet" type="text/css" href="assets/vendor/venobox/venobox.css">
-  <link rel="stylesheet" type="text/css" href="assets/vendor/animate.css/animate.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/vendor/owl.carousel/assets/owl.carousel.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/vendor/aos/css/aos.css">
-  <link rel="stylesheet" type="text/css" href="assets/vendor/glightbox/css/glightbox.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/vendor/swiper/swiper-bundle.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
-
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  </head>
-
-  <body>
-    <header id="header" class="fixed-top d-flex align-items-center">
-      <div class="header-container d-flex align-items-center justify-content-between">
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li><a class="nav-link scrollto active" href="index.html">முகப்பு</a></li> 
-              <div class="dropdowns">
-                <a href="" class="dropbtn">சற்றுமுன்</a>
-                <div class="dropdowns-content">
-                  <a href="satrumun.html" target="_blank">சற்றுமுன்</a>
-                  <a href="#">அதிகம் பார்தவை</a>
-                </div>
-              </div> 
-              <li><a class="nav-link scrollto" href="#உலகம்">உலகம்</a></li>
-              <li><a class="nav-link scrollto" href="#இந்தியா">இந்தியா</a></li>
-            <div class="dropdowns">
-                <a href="#arasiyal" class="dropbtn">தமிழ்நாடு</a>
-                <div class="dropdowns-content">
-                  <a href="puthucheri.html" target="_blank">புதுச்சேரி</a>
-                 <a href="#" >மாவட்டம்</a>
-              </div> 
-            </div>                 
-            <li><a class="nav-link scrollto" href="#">அரசியல்</a></li>
-            <div class="dropdowns">
-              <a href="#" class="dropbtn">சினிமா</a>
-                <div class="dropdowns-content">
-                  <a href="#">திரைவிமர்சனம்</a>
-                  <a href="#">வீடியோ</a>
-                </div>
-              </div>
-              <li><a class="nav-link scrollto" href="#மருத்துவம்">மருத்துவம்</a></li>
-              <li><a class="nav-link scrollto" href="#வணிகம்">வணிகம்</a></li>
-              <li><a class="nav-link scrollto" href="#கல்வி">கல்வி</a></li>
-              <li><a class="nav-link scrollto" href="#ஆண்மீகம்">ஆண்மீகம்</a></li>
-              <li><a class="nav-link scrollto" href="#விளையாட்டு">விளையாட்டு</a></li>
-              <li><a class="nav-link scrollto" href="#சுற்றுலா">சுற்றுலா</a></li>
-              <li><a class="nav-link scrollto" href="#வீடியோ">வீடியோ</a></li>
-              <ul class="socials pull-right visible-desktop">
-                <li class="social facebook"><a href="https://www.facebook.com" target="-blank"><i class="fa fa-facebook"></i></a></li>
-                <li class="social twitter"><a href="https://www.twitter.com" target="-blank"><i class="fa fa-twitter"></i></a></li>
-                <li class="social google_plus"><a href="https://www.google.com" target="-blank"><i class="fa fa-google-plus"></i></a></li>
-                <li class="social youtube"><a href="https://www.youtube.com" target="-blank"><i class="fa fa-youtube"></i></a></li>
-                <li class="social linkedin"><a href="https://www.linkedin.com" target="-blank"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
-          </ul> 
-          <i class="fa fa-bars mobile-nav-toggle"></i>                    
-            </nav>
-
-            <!--<input type="checkbox" id="menu-bar">
-            <label for="menu-bar">Menu</label>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#">முகப்பு</a></li>                  
-                    <li><a href="#">சற்றுமுன்</a>
-                    <ul>
-                        <li><a href="#">சற்றுமுன்</a></li>
-                        <li><a href="#">அதிகம் பார்தவை</a></li>
-                        </ul>
-                        </li>
-                        <li><a href="#">உலகம்</a></li>
-                        <li><a href="#">இந்தியா</a></li>
-                        <li><a href="#">தமிழ்நாடு</a>
-                        <ul>
-                            <li><a href="#">புதுச்சேரி</a></li>
-                            <li><a href="#">மாவட்டம்</a>
-                            <ul>
-                                <li><a href="#">சென்னை</a></li>
-                                <li><a href="#">அரியலூர்</a></li>
-                                <li><a href="#">செங்கல்பட்டு</a></li>
-                                <li><a href="#">கோயம்புத்தூர்</a></li>
-                                <li><a href="#">கடலூர்</a></li>
-                                <li><a href="#">தர்மபுரி</a></li>
-                                <li><a href="#">திண்டுக்கல்</a></li>
-                                <li><a href="#">ஈரோடு</a></li>
-                                <li><a href="#">காஞ்சிபுரம்</a></li>
-                                <li><a href="#">கள்ளக்குறிச்சி</a></li>
-                                <li><a href="#">கன்னியாகுமரி</a></li>
-                                <li><a href="#">கரூர்</a></li>
-                                <li><a href="#">கிருஷ்ணகிரி</a></li>
-                                <li><a href="#">மதுரை</a></li>
-                                <li><a href="#">மயிலாடுதுறை</a></li>
-                                <li><a href="#">நாகப்பட்டினம்</a></li>
-                                <li><a href="#">நாமக்கல்</a></li>
-                                <li><a href="#">நீலகிரி</a></li>
-                                <li><a href="#">பெரம்பலூர்</a></li>
-                                <li><a href="#">புதுக்கோட்டை</a></li>
-                                <li><a href="#">ராமநாதபுரம்</a></li>
-                                <li><a href="#">ராணிப்பேட்டை</a></li>
-                                <li><a href="#">சேலம்</a></li>
-                                <li><a href="#">சிவகங்கை</a></li>
-                                <li><a href="#">தஞ்சாவூர்</a></li>
-                                <li><a href="#">தென்காசி</a></li>
-                                <li><a href="#">தேனி</a></li>
-                                <li><a href="#">திருச்சி</a></li>
-                                <li><a href="#">திருநெல்வேலி</a></li>
-                                <li><a href="#">திருப்பத்தூர்</a></li>
-                                <li><a href="#">திருவாரூர்</a></li>
-                                <li><a href="#">தூத்துக்குடி</a></li>
-                                <li><a href="#">திருப்பூர்</a></li>
-                                <li><a href="#">திருவள்ளூர்</a></li>
-                                <li><a href="#">திருவண்ணாமலை</a></li>
-                                <li><a href="#">வேலூர்</a></li>
-                                <li><a href="#">விழுப்புரம்</a></li>
-                                <li><a href="#">விருதுநகர்</a></li>
-                            </ul>
-                        </li>
-                        </ul></li>
-                        <li><a href="#">அரசியல்</a></li>
-                        <li><a href="#">சினிமா</a>
-                        <ul>
-                            <li><a href="#">திரைவிமர்சனம்</a></li>  
-                            <li><a href="#">வீடியோ</a></li>  
-                        </ul></li>
-                        <li><a href="#">மருத்துவம்</a></li>
-                        <li><a href="#">வணிகம்</a></li>
-                        <li><a href="#">கல்வி</a></li>
-                        <li><a href="#">ஆண்மீகம்</a></li>
-                        <li><a href="#">விளையாட்டு</a></li>
-                        <li><a href="#">சுற்றுலா</a></li>
-                        <li><a href="#">வீடியோ</a></li>                          
-                    </ul>  
-                    <ul class="socials pull-right visible-desktop">
-                        <li class="social facebook"><a href="https://www.facebook.com" target="-blank"><i class="fa fa-facebook"></i></a></li>
-                        <li class="social twitter"><a href="https://www.twitter.com" target="-blank"><i class="fa fa-twitter"></i></a></li>
-                        <li class="social google_plus"><a href="https://www.google.com" target="-blank"><i class="fa fa-google-plus"></i></a></li>
-                        <li class="social youtube"><a href="https://www.youtube.com" target="-blank"><i class="fa fa-youtube"></i></a></li>
-                        <li class="social linkedin"><a href="https://www.linkedin.com" target="-blank"><i class="fa fa-linkedin"></i></a></li>
-                      </ul> 
-                      </nav>-->
-                    
-                   
-          <div class="com-item logos-align">
-            <div class="com-img">
-              <img class=logo src="assets/image/logo.png" alt="">
-            </div>
-          </div>
-          <div class="row">
-            <div class="scrollbar">
-            <div class="col-lg-13">
-              <marquee scrollamount="15"><i class="icofont-location-pin"></i><span>கோவை :</span> தொடர் மழை காரணமாக  மாண்யதோட்டம் வீதியில் இருந்த பாழடைந்த  வீடு  இடிந்து விழுந்து சேதம். வீட்டின் அருகில்  யாரும் இல்லாததால் சேதம் தவிர்ப்பு ; கோவை பெரியநாயக்கன்பாளையம் வனச் சரகத்திற்குட்பட்ட கதிர் நாயக்கன் பாளையம் பகுதியில் உடல்நலக்குறைவால் சுற்றி வந்த ஆண் யானை மீண்டும் படுத்துக் கொண்டதால் வனத்துறையினர் சிகிச்சை அளித்து வருகின்றனர்.
-                <i class="icofont-location-pin"></i><span>சென்னை :</span> அண்ணா சாலையில் உள்ள போக்குவரத்து சிக்னல் திடீரென்று தீப்பிடித்து எரிந்ததால் பரபரப்பு ஏற்பட்டது. கடந்த 2 நாட்களாக பெய்த கனமழை காரணமாக போக்குவரத்து சிக்னல் விளக்கு தீப்பிடித்து எரிந்தது.
-                <i class="icofont-location-pin"></i><span>வேலூர் :</span> காட்பாடி சில்க் மில்லில் இயங்கி வரும் தனியார் லாட்ஜில் கோயமுத்தூரை சேர்ந்த நவநீதன் வயது 40 என்பவர் தூக்கிட்டு தற்கொலை விருதம்பட்டு போலீசார் விசாரணை.
-                <i class="icofont-location-pin"></i><span>தஞ்சை :</span> மேட்டூர் அணை நிரம்பி வருவதால் கொள்ளிடம் ஆற்றில் அதிகளவு தண்ணீர் செல்ல வாய்ப்புள்ளது; கரையோர மக்கள் பாதுகாப்பாக இருக்க வேண்டும், கால்நடைகளை மேய்ச்சலுக்கு கொண்டு செல்ல வேண்டாம் என தஞ்சை மாவட்ட ஆட்சியர் அறிவுறுத்தல்
-                <i class="icofont-location-pin"></i><span>கிருஷ்ணகிரி :</span> தேன்கனிக்கோட்டை அருகே ஜவளகிரி வனப்பகுதியில் 70 யானைகள் முகாம்-விவசாயிகள் பீதி
-                <i class="icofont-location-pin"></i><span>தருமபுரி :</span> மாவட்டத்தில் வடகிழக்கு பருவ மழையின் தாக்கம் தற்போது ஆரம்பிக்கப்பட்டுள்ளது. எனவே விவசாய பெருமக்கள் முன்னெச்சரிக்கை நடவடிக்கைகள் மேற்கொண்டு தங்கள் பயிர்களை மழையின் பாதிப்பிலிருந்து காப்பாற்றிக் கொள்ள மாவட்ட ஆட்சித்தலைவர் அவர்கள் கேட்டுக் கொண்டுள்ளார்.
-
-                <i class="icofont-location-pin"></i><span>திருச்சி :</span> முக்கொம்பு மேலணையில் இருந்து 10000 கன அடி நீர் கொள்ளிடம் பழைய கதவணையில் இருந்து திறப்பு.கொள்ளிடம் ஆற்றில் உள்ள சலவை தொழிலாளர்கள் உடனே வெளியேற மாவட்ட நிர்வாகம் எச்சரிக்கை
-                <i class="icofont-location-pin"></i><span>அரியலூர் :</span> ஜெயங்கொண்டம் அருகேயுள்ள பொன்னேரியை பிற்படுத்தப்பட்டோர் நலத்துறை அமைச்சர் எஸ்.எஸ்.சிவசங்கர் ஆய்வு செய்தார்.
-                <i class="icofont-location-pin"></i><span>கடலூர் :</span> கள்ளிப்பாடி காவனூர் இடையே வெள்ளாற்றில் மழைநீர் பெருக்கெடுத்து ஓடுவதால் பொதுமக்கள் நலன் கருதி ஸ்ரீமுஷ்ணம் காவல்துறையினர் முன்னெச்சரிக்கை நடவடிக்கையாக பொதுமக்களை அனுமதிக்கவில்லை.
-              </marquee>
-            </div> 
-          </div>
-          </div>
-            <div class="col-lg-2 align-items-right word">
-                <h6><a href="index1.html" target="_blank"><i class="icofont-location-arrow"></i>தலைப்பு செய்தி .!</a></h6>
-                <p>செவ்வாய், நவம்பர் 9,2021 ஐப்பசி 13,பிலவ வருடம்</p>
-          </div>
-      </div>
-        </header>
-
-        <!----<section id="home1" class="fixed-top d-flex align-items-center"> 
-          <div class="home1-container d-flex align-items-center justify-content-between"> 
-          <div class="com-img">
-            <img class=logo src="image/logo.png" alt="">
-          </div>
-        </div>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>V7 செய்திகள்</title>
+    <link href="css/media_query.css" rel="stylesheet" type="text/css"/>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="css/animate.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/>
+    <link href="css/owl.theme.default.css" rel="stylesheet" type="text/css"/>
+    <!-- Bootstrap CSS -->
+    <link href="css/style_1.css" rel="stylesheet" type="text/css"/>
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-3.5.0.min.js"></script>
+</head>
+<body>
+<!--------          Socialicon Section    ---------->
+<div class="container-fluid">
+    <div class="container">
         <div class="row">
-          <div class="scrollbar">
-          <div class="col-lg-13">
-            <marquee scrollamount="15"><i class="icofont-location-pin"></i><span>தேனி:</span> கேரள அரசை கண்டித்து 5 மாவட்ட விவசாய சங்கத்தினர் தேனி மாவட்ட  எல்லையான குமுளியில் போராட்டம் நடத்தினர். முல்லைப் பெரியாறு அணையில் 142 அடி நீர் தேக்கத்துக்கு முட்டுக்கட்டையாக இருக்கும் கேரள அரசை கண்டித்து போராட்டம் நடத்தப்பட்டது
-              <i class="icofont-location-pin"></i><span>நீலகிரி:</span> கோடநாடு வழக்கில் கைது செய்யப்பட்ட கனகராஜின் சகோதரர் தனபால் உதகை நீதிமன்றத்தில் ஆஜர்
-            </marquee>
-          </div> 
-        </div>
-        </div>
-          <div class="col-lg-2 align-items-right word">
-              <h6><a href="index1.html" target="_blank"><i class="icofont-location-arrow"></i>தலைப்பு செய்தி .!</a></h6>
-              <p>புதன், நவம்பர் 3,2021 ஐப்பசி 17,பிலவ வருடம்</p>
-        </div>
-      </div>
-          </section>--->
-      <section id="home"  class="content">
-            <div class="row video-page ">
-              <div class="col-lg-5 video-line">
-              <button><blink>LIVE*</blink></button>
-          <div class="content section" style="max-width:1100px">
-            <iframe class="mySlides" width="650" height="350" src="https://www.youtube.com/embed/pSU_-J28kYY" autoplay="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="mySlides" width="650" height="350" src="https://www.youtube.com/embed/WLflSjw_qNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="mySlides" width="650" height="350" src="https://www.youtube.com/embed/BOaeEDBOarc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>           
-          <script>
-          var myIndex = 0;
-          carousel();       
-          function carousel() {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            for (i = 0; i < x.length; i++) {
-              x[i].style.display = "none";  
-            }
-            myIndex++;
-            if (myIndex > x.length) {myIndex = 1}    
-            x[myIndex-1].style.display = "block";  
-            setTimeout(carousel, 9000); // Change image every 9 seconds
-          }
-          </script> 
-        </div>
-         <div class="col-lg-3 seithi">
-          <h5><i class="icofont-location-arrow"></i>செய்திகள்</h5>
-          <hr style="width:100%;text-align:left;margin-left:0">
-          <div class="com-item d-flex">
-            <div class="com-img">
-              <a href=""><img src="assets/image/08.11.21/seithi1.jpeg" alt=""></a>
+            <div class="col-12 col-md-3 fh5co_padding_menu">
+                <img src="images/logo.png" alt="img" class="fh5co_logo_width"/>
             </div>
-            <div class="img-content">
-                <p><a href="">நெல்லை டவுணில் சேதமடைந்த சாலைகள் செப்பனிடும் பணி துவக்கம் ., மாவட்ட ஆட்சித் தலைவர் மற்றும் மாநகராட்சி ஆணையாளர் ஆகியோருக்கு நன்றி.!</a></p>
-            </div>
-        </div>
-        <hr style="width:100%;text-align:left;margin-left:0">
-          <div class="com-item d-flex">
-            <div class="com-img">
-                <a href=""><img src="assets/image/09.11.21/seithi2.jpeg" alt=""></a>
-            </div>
-            <div class="img-content">
-                <p><a href="">இறப்பிலும் இணைபிரியா தம்பதியர்.
-                  <br>
-               தி.மலை மாவட்டம் கண்ணமங்கலம் அடுத்த படவேடு ராமநாதபுரம் சேகர் உடையார் நேற்று காலமானார்.
-பிரிவை தாங்காத மனைவி கண்ணகி அதிர்ச்சியில் இன்று இறந்தார். இதனால் கிராமமே சோகத்தில் மூழ்கியது. </a></p>!</a></p>
-            </div>
-        </div>
-        <hr style="width:100%;text-align:left;margin-left:0">
-          <div class="com-item d-flex">
-            <div class="com-img">
-               <a href=""><img src="assets/image/08.11.21/seithi2.jpeg" alt=""></a>
-            </div>
-            <div class="img-content">
-                <p><a href="">சென்னையில் வேக தடையில் சிக்கி தவிக்கும் வாகனங்கள் கண்டுக்கொள்ளாத நெடுஞ்சாலைத்துறை!</a></p>
-            </div>
-        </div>
-        <hr style="width:100%;text-align:left;margin-left:0">
-         </div>
-          <div class="col-lg-3">
-            <div class="row recent-news">
-              <h5><i class="icofont-location-arrow"></i>சற்றுமுன் இந்தியா செய்தி</h5>
-              <hr style="width:100%;text-align:left;margin-left:0">
-              <div class="com-item d-flex">
-                <div class="com-img">
-                    <a href=""><img src="assets/image/08.11.21/recent1.jpeg" alt=""></a>
+            <div class="col-12 col-md-9 align-self-center fh5co_mediya_right">
+                <div class="text-center d-inline-block">
+                    <a class="fh5co_display_table"><div class="fh5co_verticle_middle"><i class="fa fa-linkedin"></i></div></a>
                 </div>
-                <div class="img-content">
-                    <p><a href="">திருச்செந்தூரில் பக்தர்களுக்கு அனுமதி மறுப்பு இந்து முன்னணி சார்பாக சூடம் ஏற்றி வழிபாடு ! !</a></p>
+                <div class="text-center d-inline-block">
+                    <a class="fh5co_display_table"><div class="fh5co_verticle_middle"><i class="fa fa-google-plus"></i></div></a>
                 </div>
-            </div>
-            <hr style="width:100%;text-align:left;margin-left:0">
-            <div class="com-item d-flex">
-              <div class="com-img">
-                 <a href=""><img src="assets/image/08.11.21/recent2.jpeg" alt=""></a>
-              </div>
-              <div class="img-content">
-                  <p><a href=""> தூத்துக்குடி மாவட்டம் திருச்செந்தூர் அருள்மிகு சுப்பிரமணிய சுவாமி திருக்கோவிலில் சண்முக விலாஸ் மண்டபத்திற்க்கு பக்தர்கள் செல்ல அனுமதி மறுக்கப்பட்டிருக்கிறது. .!</a></p>
-              </div>
-          </div>
-          <hr style="width:100%;text-align:left;margin-left:0">
-          <div class="com-item d-flex">
-            <div class="com-img">
-                <a href=""><img src="assets/image/08.11.21/recent3.jpeg" alt=""></a>
-            </div>
-            <div class="img-content">
-                <p><a href="">ஆலங்குளம் அருகே பெற்றோரை தாக்கிய தனியார் பள்ளி நிர்வாகி ! </a></p>
+                <div class="text-center d-inline-block">
+                    <a href="https://twitter.com/fh5co" target="_blank" class="fh5co_display_table"><div class="fh5co_verticle_middle"><i class="fa fa-twitter"></i></div></a>
+                </div>
+                <div class="text-center d-inline-block">
+                    <a href="https://fb.com/fh5co" target="_blank" class="fh5co_display_table"><div class="fh5co_verticle_middle"><i class="fa fa-facebook"></i></div></a>
+                </div>
+                <div class="clearfix"></div>
             </div>
         </div>
-        <hr style="width:100%;text-align:left;margin-left:0">
-       <!----- <div class="com-item d-flex">
-          <div class="com-img">
-              <!----<a href=""><img src="image/news4.png" alt=""></a>
-          </div>
-          <div class="img-content">
-              <p><a href="">சென்னை /  தி.நகர், நுங்கம்பாக்கம், அண்ணாநகர், கிண்டி, ஈக்காட்டுத்தாங்கல் உள்ளிட்ட பகுதிகளில் மழை..!</a></p>
-          </div>
-      </div>
-      <hr style="width:100%;text-align:left;margin-left:0">
-      <div class="com-item d-flex">
-        <div class="com-img">
-            <!---<a href=""><img src="image/news5.jpg" alt=""></a>
-        </div>
-        <div class="img-content">
-            <p><a href="">சேலம் மாவட்டம் / எடப்பாடியில் பாமக மற்றும் வன்னியர் சங்கத்தினர் போராட்டம் நடத்தினர்.!</a></p>
-        </div>
-    </div>---->
-            </div>
-            <div class="row recent-head">
-              <h6><i class="icofont-location-arrow"></i>சற்றுமுன் உலக செய்தி</h6>
-              <hr style="width:100%;text-align:left;margin-left:0">       
-                <div class="com-item d-flex">
-                  <div class="com-img">
-                      <a href=""><img src="assets/image/01.11.21/world1.jpg" alt=""></a>
-                  </div>
-                  <div class="img-content">
-                      <p><a href="">பல ஆண்டு காலமாக ஜப்பான் நாட்டில் லிபரல் ஜனநாயக கட்சி மக்கள் ஆதரவுடன் பெரும்பான்மை பெற்று ஆட்சி அமைத்து வருகிறது.!</a></p>
-                  </div>
-              </div>
-              <hr style="width:100%;text-align:left;margin-left:0">
-              <div class="com-item d-flex">
-                <div class="com-img">
-                    <a href=""><img src="assets/image/01.11.21/world2.jpg" alt=""></a>
-                </div>
-                <div class="img-content">
-                    <p><a href="">கொரோனா தடுப்பூசியில் சமத்துவம் தேவை என ஐக்கிய நாடுகள் சபை பொதுச் செயலாளர் அந்தோனியோ குத்தேரசு வேண்டுகோள் விடுத்துள்ளார்..!</a></p>
-                </div>
-            </div>
-            </div>  
-            </div>
-            </div>
-      </section>
+    </div>
+</div>
 
-      <section id="tamil-arasiyal">
-        <div class="">
-        <div class="row">
-          <div class="col-lg-6">
-        <h6><i class="ri-bank-fill"></i>தமிழ்நாடு<i class="fa fa-share-alt"></i></h6>
-        <hr style="width:100%;text-align:left;margin-left:0">
-       <div class="row tamilnadu-page">
-         |<div class="col-md-4 tamil-page">
-          <a href="index1.html"><img src="assets/image/08.11.21/tamil1.jpeg"></a>
-          <h6><a href="index1.html">சென்னையில் 2015 மழை காலத்தை நினைவுபடுத்தும் காட்சிகள்; !</a></h6>
-          <p><a href="index1.html">சென்னையில் பெய்து வரும் தொடர் மழை காரணமாக குடியிருப்பு பகுதிகளுக்குள் மழை நீர் புகுந்ததால் பொதுமக்கள் அவதி</a></p>
-          <p><a href="index1.html">பாரதிதாசன் காலனி. KK நகர் RTO OFFICE. வீடுகளுக்குள் தண்ணீர் புகுந்தது சாலைகள் தண்ணீரில் மூழ்கியதால் வாகனங்களை இயக்க முடியாமல் வாகன ஒட்டிகள் அவதி.
-சென்னையில் நள்ளிரவு முதல் பெய்து வரும் தொடர் கனமழை காரணமாக பிரதான சாலைகள் நீரில் மூழ்கின</a> </p>
-         </div>
-         <div class="col-md-3 tamil-page1"> 
-          <img src="assets/image/08.11.21/tamil2.jpeg">
-          <p>தூத்துக்குடி வல்லநாடு ஆற்று பாலத்தில் மீண்டும் சேதம்: வாகன ஓட்டிகள் சிரமம் !  </p>
-          <hr style="width:100%;text-align:left;margin-left:0">
-          <img src="assets/image/08.11.21/tamil3.jpeg">
-          <p>“திண்டுக்கல் அருகே மின்சாரக் கம்பியில் தொங்கியபடி உயிரிப்பு ! இருசக்கர வாகனத்தில் அதிவேகத்தில் சென்று எதிரே வந்த காரின் மீது மோதியதில் அந்தரத்தில் பறந்த வாலிபர். மின்சாரக் கம்பியில் தொங்கியபடி உயிரிழந்தார் </p>
-         </div>
-         <div class="col-md-3 tamil-page2">
-          <img src="assets/image/08.11.21/tamil4.jpeg">
-         <p>சென்னையில் தமிழ்நாடு அரசு ஆரம்ப சுகாதார நிலைய ஆர்.சி.எச் தற்காலிக ஒப்பந்த துப்புரவு பணியாளர்கள் நலச்சங்கத்தின் பொதுக்குழு கூட்டம் ! </p>
-          <hr style="width:100%;text-align:left;margin-left:0">
-          <img src="assets/image/08.11.21/tamil5.jpeg">
-          <p>நெல்லையில் தமிழர்கள் மறந்து போன பழைய விளையாட்டுகள் மீட்டெடுக்கும்  தலைமுறையினர் !</p>
-         </div>       
-       </div>
-       </div>
+<!---------     Scrolling Section       ------>
 
-        <div class="col-lg-6">
-        <h6><i class="icofont-hand-right"></i>அரசியல்<i class="fa fa-share-alt"></i></h6>
-        <hr style="width:100%;text-align:left;margin-left:0">
-       <div class="row arasiyals-page">
-         |<div class="col-md-4 arasiyal-page">
-          <img src="assets/image/08.11.21/arasiyal1.jpeg">
-                <h6>காவலாளியை தாக்கிய தி.மு.க பிரமுகர் கைது! </h6>
-              </br>
-              <p>   அமைச்சர் அனிதா ராதாகிருஷ்ணனின் தீவிர ஆதரவாளரும், திமுக தலைமை செயற்குழு உறுப்பினரும், விஜய் ரசிகர் மன்ற தலைவருமாக உள்ள ஜேசு மகன் ஜெகன் என்ற பில்லா ஜெகன் (44) மற்றும் அவருடன் வந்த 5பேர் மது அருந்த அறை கேட்டுள்ளனர்
-                <br>
-                நீதிபதிக்கு மட்டுமே அறை ஒதுக்கப்படும், எனவே அறை தர முடியாது என்று கூறியுள்ளார்.இதனால் ஆத்திரம் அடைந்த 6 பேரும் காவலாளி சதாம் சேட்டை அடித்து, கல்லால் தாக்கியதாக கூறப்படுகிறது. 
-              </p>
-         </div>
-         <div class="col-md-3 arasiyal-page1"> 
-          <img src="assets/image/01.11.21/arasiyal2.jpg">
-          <p>தமிழக அரசு பெண்களுக்கு அதிகாரம் அளிக்க வேண்டும் என்பதில் முனைப்புடன் செயல்பட்டு வருவதாக அண்டை மாநிலங்களில் உள்ள அரசியல் விமர்சகர்கள் கூறி வருகின்றனர். . </p>
-          <hr style="width:100%;text-align:left;margin-left:0">
-          <img src="assets/image/01.11.21/arasiyal3.jpg">
-          <p>திண்டுக்கல்லில் ஊராட்சி மன்ற தலைவருக்கு கத்திக்குத்து.திண்டுக்கல் அருகே பித்தளைப்பட்டி ஊராட்சி மன்ற தலைவர் மயில்சாமிக்கு கத்திக்குத்து.<br>
-          திண்டுக்கல் அரசு மருத்துவமனையில் சிகிச்சை.இதுகுறித்து தாலுகா போலீசார் விசாரணை நடத்தி வருகின்றனர்
-        </p>
-         </div>
-         <div class="col-md-3 arasiyal-page2">
-          <img src="assets/image/08.11.21/arasiyal4.jpeg">
-          <p>"சென்னையில் வேக தடையில் சிக்கி தவிக்கும் வாகனங்கள் கண்டுக்கொள்ளாத நெடுஞ்சாலைத்துறை!டோல்பிளாசா கட்டணத்தை செலுத்திவிட்டு விபத்து நேரும் வகையில் உள்ள சாலையை கடப்பதற்குள் பெரும்  ஆபத்தாக இருக்கிறது.  </p>
-          <hr style="width:100%;text-align:left;margin-left:0">
-          <video src="assets/image/09.11.21/arasiyal5.mp4" autoplay="" controls="controls"></video>
-          <p>திருக்கோவிலூரில்  வீடுகளுக்குள் புகுந்த தண்ணீரை அகற்ற நாற்று நடும் நூதன போராட்டம் ! 
-            <br> திருக்கோவிலூர் அருகே வீடுகளுக்குள் புகுந்த தண்ணீரை அகற்ற நடவடிக்கை எடுக்காத அரசைக் கண்டித்து, சேறும் சகதியுமாக இருக்கும் 
-சாலையில் நாற்று நடும் நூதன போராட்டத்தில்  பெண்கள் ஈடுபட்டனர்..
-           </p>
-         </div>       
-       </div>
-       </div>
-       </div>
-      </div>
-       </section>
+<div class="container-fluid">
+    <div class="col-lg-12 col-md-3">
+        <div class="scrollbar">
+          <marquee scrollamount="10"><i class="icofont-location-pin"></i><span>கோவை :</span> தொடர் மழை காரணமாக  மாண்யதோட்டம் வீதியில் இருந்த பாழடைந்த  வீடு  இடிந்து விழுந்து சேதம். வீட்டின் அருகில்  யாரும் இல்லாததால் சேதம் தவிர்ப்பு ; கோவை பெரியநாயக்கன்பாளையம் வனச் சரகத்திற்குட்பட்ட கதிர் நாயக்கன் பாளையம் பகுதியில் உடல்நலக்குறைவால் சுற்றி வந்த ஆண் யானை மீண்டும் படுத்துக் கொண்டதால் வனத்துறையினர் சிகிச்சை அளித்து வருகின்றனர்.
+            <i class="icofont-location-pin"></i><span>சென்னை :</span> அண்ணா சாலையில் உள்ள போக்குவரத்து சிக்னல் திடீரென்று தீப்பிடித்து எரிந்ததால் பரபரப்பு ஏற்பட்டது. கடந்த 2 நாட்களாக பெய்த கனமழை காரணமாக போக்குவரத்து சிக்னல் விளக்கு தீப்பிடித்து எரிந்தது.
+            <i class="icofont-location-pin"></i><span>வேலூர் :</span> காட்பாடி சில்க் மில்லில் இயங்கி வரும் தனியார் லாட்ஜில் கோயமுத்தூரை சேர்ந்த நவநீதன் வயது 40 என்பவர் தூக்கிட்டு தற்கொலை விருதம்பட்டு போலீசார் விசாரணை.
+            <i class="icofont-location-pin"></i><span>தஞ்சை :</span> மேட்டூர் அணை நிரம்பி வருவதால் கொள்ளிடம் ஆற்றில் அதிகளவு தண்ணீர் செல்ல வாய்ப்புள்ளது; கரையோர மக்கள் பாதுகாப்பாக இருக்க வேண்டும், கால்நடைகளை மேய்ச்சலுக்கு கொண்டு செல்ல வேண்டாம் என தஞ்சை மாவட்ட ஆட்சியர் அறிவுறுத்தல்
+            <i class="icofont-location-pin"></i><span>கிருஷ்ணகிரி :</span> தேன்கனிக்கோட்டை அருகே ஜவளகிரி வனப்பகுதியில் 70 யானைகள் முகாம்-விவசாயிகள் பீதி
+            <i class="icofont-location-pin"></i><span>தருமபுரி :</span> மாவட்டத்தில் வடகிழக்கு பருவ மழையின் தாக்கம் தற்போது ஆரம்பிக்கப்பட்டுள்ளது. எனவே விவசாய பெருமக்கள் முன்னெச்சரிக்கை நடவடிக்கைகள் மேற்கொண்டு தங்கள் பயிர்களை மழையின் பாதிப்பிலிருந்து காப்பாற்றிக் கொள்ள மாவட்ட ஆட்சித்தலைவர் அவர்கள் கேட்டுக் கொண்டுள்ளார்.    
+            <i class="icofont-location-pin"></i><span>திருச்சி :</span> முக்கொம்பு மேலணையில் இருந்து 10000 கன அடி நீர் கொள்ளிடம் பழைய கதவணையில் இருந்து திறப்பு.கொள்ளிடம் ஆற்றில் உள்ள சலவை தொழிலாளர்கள் உடனே வெளியேற மாவட்ட நிர்வாகம் எச்சரிக்கை
+            <i class="icofont-location-pin"></i><span>அரியலூர் :</span> ஜெயங்கொண்டம் அருகேயுள்ள பொன்னேரியை பிற்படுத்தப்பட்டோர் நலத்துறை அமைச்சர் எஸ்.எஸ்.சிவசங்கர் ஆய்வு செய்தார்.
+            <i class="icofont-location-pin"></i><span>கடலூர் :</span> கள்ளிப்பாடி காவனூர் இடையே வெள்ளாற்றில் மழைநீர் பெருக்கெடுத்து ஓடுவதால் பொதுமக்கள் நலன் கருதி ஸ்ரீமுஷ்ணம் காவல்துறையினர் முன்னெச்சரிக்கை நடவடிக்கையாக பொதுமக்களை அனுமதிக்கவில்லை.              
+          </marquee>
+        </div>
+    </div>
+</div>
+    
+<!-------     Navigation Bar  -------->
 
-         <section id="cinema">
-          <div class="row">
-             <h6><i class="icofont-video-alt"></i>சினிமா<i class="fa fa-share-alt"></i></h6>
-             <hr style="width:100%;text-align:left;margin-left:0">
-              <div class="col-lg-3 cinema-page1">
-                 <a href="#"><img src="assets/image/01.11.21/cinima1.jpg"></a>   
-                 <p>இது சட்ட விரோதம்.. யாராக இருந்தாலும் சட்டப்படி நடவடிக்கை: ரசிகர்களை எச்சரித்த சூர்யா!'ஜெய் பீம்' படத்தை பேருந்துகள் உள்பட பொது இடங்களில் திரையிட்டால் சட்டப்படி நடவடிக்கை எடுக்கப்படும் என சூர்யாவின் 2டி என்டர்டெய்ன்மென்ட் நிறுவனம் எச்சரித்துள்ளது.
-                 </p><hr style="width:100%;text-align:left;margin-left:0">
-                 <a href="#"><img src="assets/image//08.11.21/cinima2.jpg"></a>
-                 <p>ரெண்டு நாளா சமூக ஊடகங்களில் பெரும்பாலும் எதிர்மறையாக விமர்சிக்கப்பட்டு வரும் திரைப்படம் அண்ணாத்த....
-                  <br>
-                  ரஜினி மீது என்ன தான் கோபம் எரிச்சல்  இருந்தாலும் Dolphin அரங்கத்தில் தேனிசை தென்றல் தேவா அமைத்த ரஜினி பெயருக்கான Intromusic கேட்கும் போதே எல்லாம் மறைந்து உற்சாகம் மேலெழுகிறது
-                 </p>               
-             <hr style="width:100%;text-align:left;margin-left:0">
-             </div>
-             <div class="col-lg-3 cinema-page2">
-                 <div class="com-item d-flex">
-                     <div class="com-img">
-                         <a href=""><img src="assets/image/01.11.21/cinima3.jpg" alt=""></a>
-                     </div>
-                     <div class="img-content">
-                         <p><a href="">நெல்சன் திலீப்குமார் இயக்கத்தில் சிவகார்த்திகேயன் தயாரித்து, ஹீரோவாக நடித்த டாக்டர் படம் அக்டோபர் 9ம் தேதி தியேட்டர்களில் ரிலீஸானது !</a></p>
-                     </div>
-                 </div>
-                 <hr style="width:100%;text-align:left;margin-left:0">
-                 <div class="com-item d-flex">
-                     <div class="com-img">
-                         <a href=""><img src="assets/image/01.11.21/cinima4.jpg" alt=""></a>
-                     </div>
-                     <div class="img-content">
-                         <p><a href="">சிறுத்தை சிவா இயக்கத்தில் ரஜினிகாந்த், நயன்தாரா, கீர்த்தி சுரேஷ், குஷ்பு, மீனா உள்ளிட்டோர் நடித்திருக்கும் அண்ணாத்த படம் நவம்பர் 4ம் தேதி ரிலீஸாகவிருக்கிறது. !</a></p>
-                     </div>
-                 </div>
-                 <hr style="width:100%;text-align:left;margin-left:0">
-                 <div class="com-item d-flex">
-                     <div class="com-img">
-                         <a href=""><img src="assets/image/cinema5.jpg" alt=""></a>
-                     </div>
-                     <div class="img-content">
-                         <p><a href="">டெல்லியில் நடைபெற்ற 67-வது தேசிய திரைப்பட விருது வழங்கும் விழாவில் ரஜினிக்கு தாதா சாகேப் பால்கே விருது வழங்கப்பட்டது. குடியரசு துணைத் தலைவர் வெங்கய்யா நாயுடு இந்த விருதினை வழங்கினார்.!</a></p>
-                     </div>
-                 </div>
-                 <hr style="width:100%;text-align:left;margin-left:0">
-                 <div class="com-item d-flex">
-                     <div class="com-img">
-                         <a href=""><img src="assets/image/cinema6.jpg" alt=""></a>
-                     </div>
-                     <div class="img-content">
-                         <p><a href="">திட்டம் போட்டு திருடிவிட்டு, நாங்கள் அப்படி செய்யவே இல்லை, எதேச்சையாக காயினை பார்த்தேன் எடுத்து வைத்துவிட்டேன் என சுருதி பொய் சொல்லி இருப்பதை நெட்டிசன்கள் விமர்சித்து வருகின்றனர்.!</a></p>
-                     </div>
-                 </div>
-                 <hr style="width:100%;text-align:left;margin-left:0">
-                 <div class="com-item d-flex">
-                     <div class="com-img">
-                         <a href=""><img src="assets/image/cinema7.jpg" alt=""></a>
-                     </div>
-                     <div class="img-content">
-                         <p><a href="">அஸ்வின் கோலிவுட்டில் ஹீரோவாக அறிமுகமாவதில் அவரை விட ரசிகர்கள் தான் அதிக சந்தோஷத்தில் இருக்கிரார்கள். இந்நிலையில் என்ன சொல்ல போகிறாய் படத்தின் ஃபர்ஸ்ட் லுக் போஸ்டர்களை இன்று வெளியிட்டுள்ளனர்..!</a></p>
-                     </div>
-                 </div>
-                 <hr style="width:100%;text-align:left;margin-left:0">
-             </div>
-             <div class="col-lg-2 cinema-page3">
-              <div class="com-item d-flex">
-                  <div class="com-img">
-                      <a href=""><img src="assets/image/cinema10.jpg" alt=""></a>
-                  </div>
-                  <div class="img-content">
-                      <p><a href="">நடிகர் தனுஷ், மாளவிகா மோகனன் நடிப்பில் உருவாகியுள்ள படம் மாறன்..!</a></p>
-                  </div>
-              </div>
-              <hr style="width:100%;text-align:left;margin-left:0">
-              <div class="com-item d-flex">
-                  <div class="com-img">
-                      <a href=""><img src="assets/image/cinema11.jpg" alt=""></a>
-                  </div>
-                  <div class="img-content">
-                      <p><a href="">ஜெயஸ்ரீயின் தற்போதைய காதலர் ராகவேஷ் என்பவரது அப்பா !</a></p>
-                  </div>
-              </div>
-              <hr style="width:100%;text-align:left;margin-left:0">
-              <div class="com-item d-flex">
-                  <div class="com-img">
-                      <a href=""><img src="assets/image/cinema12.jpg" alt=""></a>
-                  </div>
-                  <div class="img-content">
-                      <p><a href="">சென்னையில் இருக்கும் காவேரி மருத்துவமனையில் அனுமதிக்கப்பட்டுள்ளார் ரஜினிகாந்த்!</a></p>
-                  </div>
-              </div>
-              <hr style="width:100%;text-align:left;margin-left:0">
-              <div class="com-item d-flex">
-                  <div class="com-img">
-                      <a href=""><img src="assets/image/cinema13.jpg" alt=""></a>
-                  </div>
-                  <div class="img-content">
-                      <p><a href="">நம்மல காலேஜ் அனுப்பி வைக்குறதுக்காக உன் அண்ணி வாசல்லையே உட்கார்ந்து!</a></p>
-                  </div>
-              </div>
-              <hr style="width:100%;text-align:left;margin-left:0">
-              <div class="com-item d-flex">
-                  <div class="com-img">
-                      <a href=""><img src="assets/image/cinema14.jpg" alt=""></a>
-                  </div>
-                  <div class="img-content">
-                      <p><a href="">சர்வைவர் ஷோவில் போட்டியில் இருந்து முதல் வாரத்திலேயே வெளியேறினாலும் !</a></p>
-                  </div>
-              </div>
-              <hr style="width:100%;text-align:left;margin-left:0">  
-          </div>
-             <div class="col-lg-3 cinema-page4">
-                 <iframe width="410" height="200" src="https://www.youtube.com/embed/zyVX8g71TGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                 <p>இந்திய திரையுலகினருக்கு மத்திய அரசினால் வழங்கப்படும் மிக உயரிய விருது தாதா சாகேப் பால்கே விருது. கடந்த 2019-ம் ஆண்டிற்கான இந்த விருது நடிகர் ரஜினிகாந்த்துக்கு அறிவிக்கப்பட்டது...</p>
-                 <hr style="width:100%;text-align:left;margin-left:0">
-                 <iframe width="410" height="200" src="https://www.youtube.com/embed/-BUDo3mow00" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
-                 <p>தமிழ் சினிமாவில் முன்னணி நடிகராக திகழும் சிம்பு மற்றும் அவரின் தாய், தந்தை மீது பிரபல திரைப்பட தயாரிப்பாளர் மைக்கேல் ராயப்பன், சென்னை கமிஷனர் அலுவலத்தில் புகார் அளித்துள்ளது பரபரப்பை ஏற்படுத்தியுள்ளது.</p>               
-             <hr style="width:100%;text-align:left;margin-left:0">
-             </div>
-          </div>
-      </section>
-          <section id="allnews">
+<div class="container-fluid bg-faded fh5co_padd_mediya padding_786">
+    <div class="container padding_786">
+        <nav class="navbar navbar-toggleable-md navbar-light ">
+            <button class="navbar-toggler navbar-toggler-right mt-3" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation"><span class="fa fa-bars"></span></button>
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="img" class="mobile_logo_width"/></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">முகப்பு <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="blog.html" id="dropdownMenuButton2" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">சற்றுமுன் <span class="sr-only">(current)</span></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink_1">
+                            <a class="dropdown-item" href="blog.html">சற்றுமுன்</a>
+                            <a class="dropdown-item" href="blog.html">அதிகம் பார்தவை</a>                           
+                        </div>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="world.html">உலகம் <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="india.html">இந்தியா <span class="sr-only">(current)</span></a>
+                    </li>                    
+                   <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="nadu.html" id="dropdownMenuButton2" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">தமிழ்நாடு <span class="sr-only">(current)</span></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink_1">
+                            <a class="dropdown-item" href="puthucheri.html">புதுச்சேரி</a>
+                            <a class="dropdown-item" href="#"></a>
+                            <a class="dropdown-item" href="chennai.html">சென்னை</a>
+                            <a class="dropdown-item" href="ariyallur.html">அரியலூர்</a>
+                            <a class="dropdown-item" href="sengalpattu.html">செங்கல்பட்டு</a>
+                            <a class="dropdown-item" href="kovai.html">கோயம்புத்தூர்</a>
+                            <a class="dropdown-item" href="kadallur.html">கடலூர்</a>
+                            <a class="dropdown-item" href="dharmapuri.html">தர்மபுரி</a>
+                            <a class="dropdown-item" href="dindugal.html">திண்டுக்கல்</a>
+                            <a class="dropdown-item" href="erode.html">ஈரோடு</a>
+                            <a class="dropdown-item" href="kancheepuram.html">காஞ்சிபுரம்</a>
+                            <a class="dropdown-item" href="kallakurichi.html">கள்ளக்குறிச்சி</a>
+                            <a class="dropdown-item" href="kumari.html">கன்னியாகுமரி</a>
+                            <a class="dropdown-item" href="karur.html">கரூர்</a>
+                            <a class="dropdown-item" href="krishnagri.html">கிருஷ்ணகிரி</a>
+                            <a class="dropdown-item" href="madurai.html">மதுரை</a>
+                            <a class="dropdown-item" href="mailadu.html">மயிலாடுதுறை</a>
+                            <a class="dropdown-item" href="pattinam.html">நாகப்பட்டினம்</a>
+                            <a class="dropdown-item" href="namakkal.html">நாமக்கல்</a>
+                            <a class="dropdown-item" href="nilgiris.html">நீலகிரி</a>
+                            <a class="dropdown-item" href="perambalur.html">பெரம்பலூர்</a>
+                            <a class="dropdown-item" href="kottai.html">புதுக்கோட்டை</a>
+                            <a class="dropdown-item" href="ramanathapuram.html">ராமநாதபுரம்</a>
+                            <a class="dropdown-item" href="ranipettai.html">ராணிப்பேட்டை</a>
+                            <a class="dropdown-item" href="selam.html">சேலம்</a>
+                            <a class="dropdown-item" href="sivagangai.html">சிவகங்கை</a>
+                            <a class="dropdown-item" href="thanjai.html">தஞ்சாவூர்</a>
+                            <a class="dropdown-item" href="thenkasi.html    ">தென்காசி</a>
+                            <a class="dropdown-item" href="theni.html">தேனி</a>
+                            <a class="dropdown-item" href="trichy.html">திருச்சி</a>
+                            <a class="dropdown-item" href="nellai.html">திருநெல்வேலி</a>
+                            <a class="dropdown-item" href="tirupathur.html">திருப்பத்தூர்</a>
+                            <a class="dropdown-item" href="tiruvarur.html">திருவாரூர்</a>
+                            <a class="dropdown-item" href="tuticorin.html">தூத்துக்குடி</a>
+                            <a class="dropdown-item" href="tirupur.html">திருப்பூர்</a>
+                            <a class="dropdown-item" href="tiruvallur.html">திருவள்ளூர்</a>
+                            <a class="dropdown-item" href="malai.html">திருவண்ணாமலை</a>
+                            <a class="dropdown-item" href="vellur.html">வேலூர்</a>
+                            <a class="dropdown-item" href="villupuram.html">விழுப்புரம்</a>
+                            <a class="dropdown-item" href="viruthunagar.html">விருதுநகர்</a>                           
+                        </div>                                                                           
+                    </li>
+                    <li class="nav-item ">
+
+                        <a class="nav-link" href="arasiyal.html">அரசியல் <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="cinema.html" id="dropdownMenuButton2" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">சினிமா <span class="sr-only">(current)</span></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink_1">
+                            <a class="dropdown-item" href="vimarsanam.html">திரைவிமர்சனம்</a>
+                            <a class="dropdown-item" href="video.html">வீடியோ</a>                           
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton2" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">மற்றவை <span class="sr-only">(current)</span></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink_1">
+                            <a class="dropdown-item" href="maruthuvam.html">மருத்துவம்</a>
+                            <a class="dropdown-item" href="vanigam.html">வணிகம்</a>
+                            <a class="dropdown-item" href="kalvi.html">கல்வி</a>
+                            <a class="dropdown-item" href="anmigam.html">ஆண்மீகம்</a>
+                            <a class="dropdown-item" href="tourist.html">சுற்றுலா</a>
+                            <a class="dropdown-item" href="video.html">வீடியோ</a>                           
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>   
+
+<!--------     Home  page     -------->
+
+<div class="container-fluid paddding mb-5">
+    <div class="row mx-0">
+        <div class="col-md-6 col-12 paddding animate-box" data-animate-effect="fadeIn">
+            <div class="fh5co_video_img">
+                <iframe id="video" width="100%" height="100%"
+                        src="https://www.youtube.com/embed/pSU_-J28kYY"
+                        frameborder="0" allowfullscreen></iframe>
+            </div>           
+        </div>
+        <div class="col-md-6">
             <div class="row">
-
-              <div class="col-lg-3 game">
-                <h6><i class="icofont-ui-game"></i>விளையாட்டு <i class="fa fa-share-alt"></i></h6>
-              <hr style="width:100%;text-align:left;margin-left:0">
-              <a href="#"><img src="assets/image/game1.png"></a>
-              <p>ஐபிஎல் 14ஆவது சீசனின் இரண்டாவது பாதி ஆட்டங்கள் செப்டம்பர் 19ஆம் தேதி துவங்கி விறுவிறுப்பாக நடைபெற்று வருகிறது..</p> 
-               <hr style="width:100%;text-align:left;margin-left:0">
-               <a href="#"><img src="assets/image/game2.jpg"></a>
-              <p>40 வயதாகும் தோனி நேற்று நடைபெற்ற கொல்கத்தா நைட் ரைடர்ஸ் அணிக்கு எதிரான போட்டியின் தினேஷ் கார்த்திக்.</p> 
-               <hr style="width:100%;text-align:left;margin-left:0">
-              </div>
-              <div class="col-lg-2 india">
-                <h6><i class="icofont-institution"></i>இந்தியா <i class="fa fa-share-alt"></i></h6>
-              <hr style="width:100%;text-align:left;margin-left:0">
-              <a href="#"><img src="assets/image/08.11.21/india1.jpeg"></a>
-              <p>மகாராஷ்டிர மாநிலம் அகமதுநகர் மாவட்ட அரசு மருத்துவமனையில் ஏற்பட்ட தீ விபத்தில் 11 பேர் உயிரிழந்தனர்.</p> 
-               <hr style="width:100%;text-align:left;margin-left:0">
-               <a href="#"><img src="assets/image/india2.jpg"></a>
-              <p>மகாராஷ்டிர மாநிலத்தில் செயல்பட்டு வரும் மாநில சாலை போக்குவரத்து கழகம் (MSRTC) இந்தியாவின் மிகப்பெரிய பொது போக்குவரத்து கழகங்களில் ஒன்று.</p> 
-              <hr style="width:100%;text-align:left;margin-left:0">
+                <div class="col-md-6 col-6 paddding animate-box" data-animate-effect="fadeIn">
+                    <div class="fh5co_suceefh5co_height_2"><img src="images/08.11.21/seithi1.jpeg" alt="img"/>
+                        <div class="fh5co_suceefh5co_height_position_absolute"></div>
+                        <div class="fh5co_suceefh5co_height_position_absolute_font_2">
+                            <div class=""><a href="#" class="color_fff"> <i class="fa fa-clock-o"></i>&nbsp;&nbsp;நவ
+                                19,2021 </a></div>
+                            <div class=""><a href="single.html" class="fh5co_good_font_2"> நெல்லை டவுணில் சேதமடைந்த சாலைகள்</br> செப்பனிடும் பணி துவக்கம் ...  </a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-6 paddding animate-box" data-animate-effect="fadeIn">
+                    <div class="fh5co_suceefh5co_height_2"><img src="images\09.11.21/seithi2.jpeg" alt="img"/>
+                        <div class="fh5co_suceefh5co_height_position_absolute"></div>
+                        <div class="fh5co_suceefh5co_height_position_absolute_font_2">
+                            <div class=""><a href="#" class="color_fff"> <i class="fa fa-clock-o"></i>&nbsp;&nbsp;நவ 19,2021 </a></div>
+                            <div class=""><a href="single.html" class="fh5co_good_font_2"> இறப்பிலும் இணைபிரியா தம்பதியர். </a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-6 paddding animate-box" data-animate-effect="fadeIn">
+                    <div class="fh5co_suceefh5co_height_2"><img src="images/08.11.21/recent2.png" alt="img"/>
+                        <div class="fh5co_suceefh5co_height_position_absolute"></div>
+                        <div class="fh5co_suceefh5co_height_position_absolute_font_2">
+                            <div class=""><a href="#" class="color_fff"> <i class="fa fa-clock-o"></i>&nbsp;&nbsp;நவ
+                                19,2021 </a></div>
+                            <div class=""><a href="single.html" class="fh5co_good_font_2">தூத்துக்குடி மாவட்டம் திருச்செந்தூர் அருள்மிகு சுப்பிரமணிய சுவாமி திருக்கோவிலில் சண்முக விலாஸ் மண்டபத்திற்க்கு பக்தர்கள்.... </a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-6 paddding animate-box" data-animate-effect="fadeIn">
+                    <div class="fh5co_suceefh5co_height_2"><img src="images/08.11.21/recent3.png" alt="img"/>
+                        <div class="fh5co_suceefh5co_height_position_absolute"></div>
+                        <div class="fh5co_suceefh5co_height_position_absolute_font_2">
+                            <div class=""><a href="#" class="color_fff"> <i class="fa fa-clock-o"></i>&nbsp;&nbsp;நவ
+                                19,2021 </a></div>
+                            <div class=""><a href="single.html" class="fh5co_good_font_2"> ஆலங்குளம் அருகே பெற்றோரை தாக்கிய</br> தனியார் பள்ளி நிர்வாகி !.. </a></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-              <div class="col-lg-2 cini">
-                <h6><i class="icofont-video-alt"></i>சினிமா <i class="fa fa-share-alt"></i></h6>
-              <hr style="width:100%;text-align:left;margin-left:0">
-              <a href="#"><img src="assets/image/cini1.jpg"></a>
-              <p>பிக் பாஸ் 5ல் கடந்த வாரம் அபிஷேக் ராஜா எலிமினேட்செய்யப்பட்டார். அவர் பிக் பாஸ் வீட்டுக்குள் இருந்தபோது நிகழ்ச்சியை சுவாரசியம் .</p> 
-               <hr style="width:100%;text-align:left;margin-left:0">
-               <a href="#"><img src="assets/image/cini2.jpg"></a>
-              <p>அரண்மனை பிரான்சைஸ் சுந்தர் சி.க்கு எப்பொழுதுமே கை கொடுக்கின்றது. தன் படங்கள் ஓடவில்லை என்றால் அரண்மனை.</p> 
-               <hr style="width:100%;text-align:left;margin-left:0">
-              </div>
-              <div class="col-lg-4 kalvi">
-                <h6><i class="icofont-read-book"></i>கல்வி <i class="fa fa-share-alt"></i></h6>
-              <hr style="width:100%;text-align:left;margin-left:0">
-              <a href="#"><img src="assets/image/kalvi1.jpg"></a>
-              <p> பள்ளிகளில் பணியாற்றும் ஆசிரியர்களுக்கு புதிய கல்விக் கொள்கை அடிப்படையிலான கலை மற்றும் கலாச்சாரம் குறித்த பயிற்சி அளிக்கப்படவிருப்பதாக தமிழக அரசு தெரிவித்துள்ளது..</p> 
-               <hr style="width:100%;text-align:left;margin-left:0">
-               <a href="#"><img src="assets/image/kalvi2.jpg"></a>
-              <p> தமிழக அரசு பள்ளிகளில் பணிபுரியும், ஆசிரியர்களுக்கு பண்டிகை கால முன்பணம் வழங்கப்படுகிறது. ஆனால், அவர்களுடன் பணிபுரியும், 12 ஆயிரம் பகுதிநேர ஆசிரியர்களுக்கு கடந்த ஒன்பது ஆண்டுகளாக..</p> 
-               <hr style="width:100%;text-align:left;margin-left:0">
-              </div>
+        </div>
+    </div>
+</div>
+
+<!-------- TamilNadu Section   --------->
+
+<div class="container-fluid pt-3">
+    <div class="container animate-box" data-animate-effect="fadeIn">
+        <div>
+            <div class="fh5co_heading fh5co_heading_border_bottom py-2 mb-4">தமிழ்நாடு</div>
+        </div>
+        <div class="owl-carousel owl-theme js" id="slider1">
+            <div class="item px-2">
+                <div class="fh5co_latest_trading_img_position_relative">
+                    <div class="fh5co_latest_trading_img"><img src="images/08.11.21/tamil3.png" alt=""
+                                                           class="fh5co_img_special_relative"/></div>
+                    <div class="fh5co_latest_trading_img_position_absolute"></div>
+                    <div class="fh5co_latest_trading_img_position_absolute_1">
+                        <a href="single.html" class="text-white"> திண்டுக்கல் அருகே மின்சாரக் கம்பியில் தொங்கியபடி உயிரிப்பு ! இருசக்கர வாகனத்தில் அதிவேகத்தில் சென்று எதிரே வந்த ..... </a>
+                        <div class="fh5co_latest_trading_date_and_name_color">  - நவ 19,2021</div>
+                    </div>
+                </div>
             </div>
-          </section>  
+            <div class="item px-2">
+                <div class="fh5co_latest_trading_img_position_relative">
+                    <div class="fh5co_latest_trading_img"><img src="images/08.11.21/cinima2.jpg" alt="" class="fh5co_img_special_relative"/></div>
+                    <div class="fh5co_latest_trading_img_position_absolute"></div>
+                    <div class="fh5co_latest_trading_img_position_absolute_1">
+                        <a href="single.html" class="text-white"> ரெண்டு நாளா சமூக ஊடகங்களில் பெரும்பாலும் எதிர்மறையாக .. </a>
+                        <div class="fh5co_latest_trading_date_and_name_color"> - நவ 19,2021</div>
+                    </div>
+                </div>
+            </div>
+            <div class="item px-2">
+                <div class="fh5co_latest_trading_img_position_relative">
+                    <div class="fh5co_latest_trading_img"><img src="images/kalvi2.jpg" alt="" class="fh5co_img_special_relative"/></div>
+                    <div class="fh5co_latest_trading_img_position_absolute"></div>
+                    <div class="fh5co_latest_trading_img_position_absolute_1">
+                        <a href="single.html" class="text-white"> தமிழக அரசு பள்ளிகளில் பணிபுரியும், ஆசிரியர்களுக்கு பண்டிகை கால முன்பணம் வழங்கப்படுகிறது </a>
+                        <div class="fh5co_latest_trading_date_and_name_color">  - நவ 19,2021</div>
+                    </div>
+                </div>
+            </div>
+            <div class="item px-2">
+                <div class="fh5co_latest_trading_img_position_relative">
+                    <div class="fh5co_latest_trading_img"><img src="images/08.11.21/india1.png" alt="" class="fh5co_img_special_relative"/></div>
+                    <div class="fh5co_latest_trading_img_position_absolute"></div>
+                    <div class="fh5co_latest_trading_img_position_absolute_1">
+                        <a href="single.html" class="text-white"> மகாராஷ்டிர மாநிலம் அகமதுநகர் மாவட்ட அரசு மருத்துவமனையில் ஏற்பட்ட தீ விபத்தில் 11 பேர் உயிரிழந்தனர். </a>
+                        <div class="fh5co_latest_trading_date_and_name_color"> - நவ 19,2021</div>
+                    </div>
+                </div>
+            </div>
+            <div class="item px-2">
+                <div class="fh5co_latest_trading_img_position_relative">
+                    <div class="fh5co_latest_trading_img"><img src="images/game2.jpg" alt="" class="fh5co_img_special_relative"/></div>
+                    <div class="fh5co_latest_trading_img_position_absolute"></div>
+                    <div class="fh5co_latest_trading_img_position_absolute_1">
+                        <a href="single.html" class="text-white"> 40 வயதாகும் தோனி நேற்று நடைபெற்ற கொல்கத்தா நைட் ரைடர்ஸ் அணிக்கு எதிரான... </a>
+                        <div class="fh5co_latest_trading_date_and_name_color">  - நவ 19,2021</div>
+                    </div>
+                </div>
+            </div>          
+        </div>
+    </div>
+</div>
 
-    <footer id="footer">
-      <div class="row">
-        <div class="col-md-2">
-          <img src="assets/image/logo.png" alt="">
-        </div>
-        <div class="col-md-6 footer-about">
-          <h3>ABOUT US</h3>
-          <p>V7 News is an Indian television channel based in chennai,India. It was launched by Rafeek as a local TV Station in Chennai. Which was carried only on subscription providers. It later changed its programming to an entertainment network and expanded its coverage area to whole state of TAMIL NADU<br><br>contact:v7media Network<br>Chennai,TamilNadu<br><span>v7tvnews.com</span></p>
-        </div>
-        <div class="col-md-3 social-link">
-          <h3>FOLLOW US</h3>
-          <a href="https://twitter.com/explore" target="-blank"><i class="bx bxl-twitter"></i></a>
-        <a href="https://www.facebook.com" target="-blank"><i class="bx bxl-facebook"></i></a>
-        <a href="https://www.instagram.com" target="-blank"><i class="bx bxl-instagram"></i></a>
-        <a href="https://www.skype.com" target="-blank"><i class="bx bxl-skype"></i></a>
-        <a href="https://www.linkedin.com" target="-blank"><i class="bx bxl-linkedin"></i></a>
-        </div>
-      </div>
-      <div class="row ">
-        <div class="col-md-12 footer-contact">
-        <!---<h5>@2021 All Right Reserved,Developed by---><a href="http://4ntechsolutions.com/" target="_blank"><img src="assets/image/rehovotlogo.png"></a>
-      </div>
-      </div>
-    </footer>
-   <a href="http://4ntechsolutions.com/" target="_blank" class="back-to-top  align-items-center justify-content-center"><p>Under </p><p>Developement...</p></a>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/jquery/jquery.min.js"></script> 
-<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-<script src="assets/vendor/venobox/venobox.min.js"></script>
-<script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-<script src="assets/vendor/php-email-form/validate.js"></script>
-<script src="assets/vendor/aos/js/aos.js"></script>
-<script src="assets/vendor/cloudflare-static/email-decode.min.js"></script>
-<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<script src="assets/vendor/purecounter/js/purecounter.js"></script>
-<script src="assets/js/main.js"></script>
- <script>if( window.self == window.top ){(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-55234356-4', 'auto'); ga('send', 'pageview'); } </script>
+<!--------- Seithigal Section     ------->
 
+<div class="container-fluid pb-4 pt-5">
+    <div class="container animate-box">
+        <div>
+            <div class="fh5co_heading fh5co_heading_border_bottom py-2 mb-4">செய்திகள்</div>
+        </div>
+        <div class="owl-carousel owl-theme" id="slider2">
+            <div class="item px-2">
+                <div class="fh5co_hover_news_img">
+                    <div class="fh5co_news_img"><img src="images/01.11.21/world1.jpg" alt=""/></div>
+                    <div>
+                        <a href="single.html" class="d-block fh5co_small_post_heading"><span class="">பல ஆண்டு காலமாக ஜப்பான் நாட்டில் லிபரல் ஜனநாயக கட்சி மக்கள் ஆதரவுடன் பெரும்பான்மை பெற்று ஆட்சி அமைத்து வருகிறது.</span></a>
+                        <div class="c_g"><i class="fa fa-clock-o"></i> நவ 19,2021</div>
+                    </div>
+                </div>
+            </div>
+            <div class="item px-2">
+                <div class="fh5co_hover_news_img">
+                    <div class="fh5co_news_img"><img src="images/08.11.21/tamil4.jpeg" alt=""/></div>
+                    <div>
+                        <a href="single.html" class="d-block fh5co_small_post_heading"><span class="">சென்னையில் தமிழ்நாடு அரசு ஆரம்ப சுகாதார நிலைய ஆர்.சி.எச் தற்காலிக ஒப்பந்த துப்புரவு பணியாளர்கள் நலச்சங்கத்தின் பொதுக்குழு கூட்டம் !</span></a>
+                        <div class="c_g"><i class="fa fa-clock-o"></i> நவ 19,2021</div>
+                    </div>
+                </div>
+            </div>
+            <div class="item px-2">
+                <div class="fh5co_hover_news_img">
+                    <div class="fh5co_news_img"><img src="images/08.11.21/tamil5.jpeg" alt=""/></div>
+                    <div>
+                        <a href="single.html" class="d-block fh5co_small_post_heading"><span class="">நெல்லையில் தமிழர்கள் மறந்து போன பழைய விளையாட்டுகள் மீட்டெடுக்கும்  தலைமுறையினர் !</span></a>
+                        <div class="c_g"><i class="fa fa-clock-o"></i> நவ 19,2021</div>
+                    </div>
+                </div>
+            </div>
+            <div class="item px-2">
+                <div class="fh5co_hover_news_img">
+                    <div class="fh5co_news_img"><img src="images/08.11.21/seithi2.jpeg" alt=""/></div>
+                    <div>
+                        <a href="single.html" class="d-block fh5co_small_post_heading"><span class="">சென்னையில் வேக தடையில் சிக்கி தவிக்கும் வாகனங்கள் கண்டுக்கொள்ளாத நெடுஞ்சாலைத்துறை!</span></a>
+                        <div class="c_g"><i class="fa fa-clock-o"></i> நவ 19,2021</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!------- VideoNews Section   --------->
+
+<div class="container-fluid fh5co_video_news_bg pb-4">
+    <div class="container animate-box" data-animate-effect="fadeIn">
+        <div>
+            <div class="fh5co_heading fh5co_heading_border_bottom pt-5 pb-2 mb-4  text-white">Video News</div>
+        </div>
+        <div>
+            <div class="owl-carousel owl-theme" id="slider3">
+                <div class="item px-2">
+                    <div class="fh5co_hover_news_img">
+                        <div class="fh5co_hover_news_img_video_tag_position_relative">
+                            <div class="fh5co_news_img">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/_THZOdkVV5U" title="YouTube video player" 
+                                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                 allowfullscreen></iframe>
+                            </div>
+                            <div class="fh5co_hover_news_img_video_tag_position_absolute fh5co_hide">
+                                <img src="images/ariel-lustre-208615.jpg" alt=""/>
+                            </div>
+                            <div class="fh5co_hover_news_img_video_tag_position_absolute_1 fh5co_hide" id="play-video">
+                                <div class="fh5co_hover_news_img_video_tag_position_absolute_1_play_button_1">
+                                    <div class="fh5co_hover_news_img_video_tag_position_absolute_1_play_button">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt-2">
+                            <a href="#" class="d-block fh5co_small_post_heading fh5co_small_post_heading_1">
+                            <span class="">The top 10 funniest videos on YouTube </span></a>
+                            <div class="c_g"><i class="fa fa-clock-o"></i> நவ 20,2021</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item px-2">
+                    <div class="fh5co_hover_news_img">
+                        <div class="fh5co_hover_news_img_video_tag_position_relative">
+                            <div class="fh5co_news_img">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/etFSk-Lxo8w" 
+                                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                                 gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="fh5co_hover_news_img_video_tag_position_absolute fh5co_hide_2">
+                                <img src="images/39-324x235.jpg" alt=""/></div>
+                            <div class="fh5co_hover_news_img_video_tag_position_absolute_1 fh5co_hide_2" id="play-video_2">
+                                <div class="fh5co_hover_news_img_video_tag_position_absolute_1_play_button_1">
+                                    <div class="fh5co_hover_news_img_video_tag_position_absolute_1_play_button">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt-2">
+                            <a href="#" class="d-block fh5co_small_post_heading fh5co_small_post_heading_1">
+                            <span class="">The top 10 embedded YouTube videos this month</span></a>
+                            <div class="c_g"><i class="fa fa-clock-o"></i> நவ 20,2021</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item px-2">
+                    <div class="fh5co_hover_news_img">
+                        <div class="fh5co_hover_news_img_video_tag_position_relative">
+                            <div class="fh5co_news_img">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/7BGH7_3RODQ" 
+                                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                                gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="fh5co_hover_news_img_video_tag_position_absolute fh5co_hide_3">
+                                <img src="images/joe-gardner-75333.jpg" alt=""/></div>
+                            <div class="fh5co_hover_news_img_video_tag_position_absolute_1 fh5co_hide_3" id="play-video_3">
+                                <div class="fh5co_hover_news_img_video_tag_position_absolute_1_play_button_1">
+                                    <div class="fh5co_hover_news_img_video_tag_position_absolute_1_play_button">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt-2">
+                            <a href="#" class="d-block fh5co_small_post_heading fh5co_small_post_heading_1">
+                            <span class="">The top 10 best computer speakers in the market</span></a>
+                            <div class="c_g"><i class="fa fa-clock-o"></i> நவ 20,2021</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item px-2">
+                    <div class="fh5co_hover_news_img">
+                        <div class="fh5co_hover_news_img_video_tag_position_relative">
+                            <div class="fh5co_news_img">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/VsWNEl1G_70"
+                                 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+                                 clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="fh5co_hover_news_img_video_tag_position_absolute fh5co_hide_4">
+                                <img src="images/vil-son-35490.jpg" alt=""/>
+                            </div>
+                            <div class="fh5co_hover_news_img_video_tag_position_absolute_1 fh5co_hide_4" id="play-video_4">
+                                <div class="fh5co_hover_news_img_video_tag_position_absolute_1_play_button_1">
+                                    <div class="fh5co_hover_news_img_video_tag_position_absolute_1_play_button">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt-2">
+                            <a href="#" class="d-block fh5co_small_post_heading fh5co_small_post_heading_1">
+                                <span class="">The top 10 best computer speakers in the market</span></a>
+                            <div class="c_g"><i class="fa fa-clock-o"></i> நவ 20,2021</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------   Arasiyal Section      -------->  
+
+<div class="container-fluid pb-4 pt-4 paddding">
+    <div class="container paddding">
+        <div class="row mx-0">
+            <div class="col-md-8 animate-box" data-animate-effect="fadeInLeft">
+                <div>
+                    <div class="fh5co_heading fh5co_heading_border_bottom py-2 mb-4">அரசியல்</div>
+                </div>
+                <div class="row pb-4">
+                    <div class="col-md-5">
+                        <div class="fh5co_hover_news_img">
+                            <div class="fh5co_news_img"><img src="images/08.11.21/arasiyal1.jpeg" alt=""/></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 animate-box">
+                        <a href="single.html" class="fh5co_magna py-2"> காவலாளியை தாக்கிய தி.மு.க பிரமுகர் கைது!
+                     </a> 
+                        <div class="fh5co_consectetur"> அமைச்சர் அனிதா ராதாகிருஷ்ணனின் தீவிர ஆதரவாளரும், திமுக தலைமை செயற்குழு உறுப்பினரும், விஜய் ரசிகர் மன்ற தலைவருமாக உள்ள ஜேசு மகன் ஜெகன் என்ற பில்லா ஜெகன் (44) மற்றும் அவருடன் வந்த 5பேர் மது அருந்த அறை கேட்டுள்ளனர்
+                        </div>
+                    </div>
+                </div>
+                <div class="row pb-4">
+                    <div class="col-md-5">
+                        <div class="fh5co_hover_news_img">
+                            <div class="fh5co_news_img"><img src="images/01.11.21/arasiyal3.jpg" alt=""/></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <a href="single.html" class="fh5co_magna py-2">திண்டுக்கல்லில் ஊராட்சி மன்ற தலைவருக்கு கத்திக்குத்து
+                         </a>                        
+                        <div class="fh5co_consectetur"> திண்டுக்கல்லில் ஊராட்சி மன்ற தலைவருக்கு கத்திக்குத்து.திண்டுக்கல் அருகே பித்தளைப்பட்டி ஊராட்சி மன்ற தலைவர் மயில்சாமிக்கு கத்திக்குத்து.<br>
+                            திண்டுக்கல் அரசு மருத்துவமனையில் சிகிச்சை.
+                        </div>                        
+                    </div>
+                </div>
+                <div class="row pb-4">
+                    <div class="col-md-5">
+                        <div class="fh5co_hover_news_img">
+                            <div class="fh5co_news_img">
+                                <img src="images/cinema7.jpg" alt=""/>
+                            </div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <a href="single.html" class="fh5co_magna py-2"> அஸ்வின் கோலிவுட்டில் ஹீரோவாக அறிமுகம்.
+                       </a> 
+                        <div class="fh5co_consectetur"> அஸ்வின் கோலிவுட்டில் ஹீரோவாக அறிமுகமாவதில் அவரை விட ரசிகர்கள் தான் அதிக சந்தோஷத்தில் இருக்கிரார்கள். இந்நிலையில் என்ன சொல்ல போகிறாய் படத்தின் ஃபர்ஸ்ட் லுக் போஸ்டர்களை இன்று வெளியிட்டுள்ளனர்..!
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="row pb-4">
+                    <div class="col-md-5">
+                        <div class="fh5co_hover_news_img">
+                            <div class="fh5co_news_img"><img src="images/cinema6.jpg" alt=""/></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <a href="single.html" class="fh5co_magna py-2">பிக் பாஸ் 5 சுவாரஸ்யம் 
+                         </a> 
+                        <div class="fh5co_consectetur"> திட்டம் போட்டு திருடிவிட்டு, நாங்கள் அப்படி செய்யவே இல்லை, எதேச்சையாக காயினை பார்த்தேன் எடுத்து வைத்துவிட்டேன் என சுருதி பொய் சொல்லி இருப்பதை நெட்டிசன்கள் விமர்சித்து வருகின்றனர்..!
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
+                <div>
+                    <div class="fh5co_heading fh5co_heading_border_bottom py-2 mb-4">குறிச்சொற்கள்</div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="fh5co_tags_all">
+                    <a href="vanigam.html" class="fh5co_tagg">வணிகம்</a>
+                    <a href="cinema.html" class="fh5co_tagg">சினிமா</a>
+                    <a href="maruthuvam.html" class="fh5co_tagg">மருத்துவம்</a>
+                    <a href="tourist.html" class="fh5co_tagg">சுற்றுலா</a>
+                    <a href="video.html" class="fh5co_tagg">வீடியோ</a>
+                    <a href="kalvi.html" class="fh5co_tagg">கல்வி</a>
+                    <a href="nadu.html" class="fh5co_tagg">தமிழ்நாடு</a>
+                    <a href="arasiyal.html" class="fh5co_tagg">அரசியல்</a>
+                    <a href="anmigam.html" class="fh5co_tagg">ஆண்மீகம்</a>
+                    <a href="india.html" class="fh5co_tagg">இந்தியா</a>
+                    <a href="puthucheri.html" class="fh5co_tagg">புதுச்சேரி</a>
+                    <a href="world.html" class="fh5co_tagg">உலகம்</a>
+                </div>
+                <div>
+                    <div class="fh5co_heading fh5co_heading_border_bottom pt-3 py-2 mb-4">Most Popular</div>
+                </div>
+                <div class="row pb-3">
+                    <div class="col-5 align-self-center">
+                        <img src="images/01.11.21/world2.jpg" alt="img" class="fh5co_most_trading"/>
+                    </div>
+                    <div class="col-7 paddding">
+                        <div class="most_fh5co_treding_font"> கொரோனா தடுப்பூசியில் சமத்துவம் தேவை என ஐக்கிய நாடுகள்...  </div>
+                        <div class="most_fh5co_treding_font_123"> நவ 19, 2021</div>
+                    </div>
+                </div>
+                <div class="row pb-3">
+                    <div class="col-5 align-self-center">
+                        <img src="images/08.11.21/tamil2.jpeg" alt="img" class="fh5co_most_trading"/>
+                    </div>
+                    <div class="col-7 paddding">
+                        <div class="most_fh5co_treding_font">தூத்துக்குடி வல்லநாடு ஆற்று பாலத்தில் மீண்டும் சேதம்: வாகன ஓட்டிகள் சிரமம் !</div>
+                        <div class="most_fh5co_treding_font_123"> நவ 19, 2021</div>
+                    </div>
+                </div>
+                <div class="row pb-3">
+                    <div class="col-5 align-self-center">
+                        <img src="images/cinema11.jpg" alt="img" class="fh5co_most_trading"/>
+                    </div>
+                    <div class="col-7 paddding">
+                        <div class="most_fh5co_treding_font">ஜெயஸ்ரீயின் தற்போதைய காதலர் ராகவேஷ் என்பவரது அப்பா !</div>
+                        <div class="most_fh5co_treding_font_123"> நவ 19, 2021</div>
+                    </div>
+                </div>
+                <div class="row pb-3">
+                    <div class="col-5 align-self-center"><img src="images/cinema10.jpg" alt="img"
+                                                              class="fh5co_most_trading"/></div>
+                    <div class="col-7 paddding">
+                        <div class="most_fh5co_treding_font">நடிகர் தனுஷ், மாளவிகா மோகனன் நடிப்பில் உருவாகியுள்ள படம் மாறன்..!</div>
+                        <div class="most_fh5co_treding_font_123"> நவ 19, 2021</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mx-0 animate-box" data-animate-effect="fadeInUp">
+            <div class="col-12 text-center pb-4 pt-4">
+                <a href="#" class="btn_mange_pagging"><i class="fa fa-long-arrow-left"></i>&nbsp;&nbsp; Previous</a>
+                <a href="#" class="btn_pagging">1</a>
+                <a href="#" class="btn_pagging">2</a>
+                <a href="#" class="btn_pagging">3</a>
+                <a href="#" class="btn_pagging">...</a>
+                <a href="#" class="btn_mange_pagging">Next <i class="fa fa-long-arrow-right"></i>&nbsp;&nbsp; </a>
+             </div>
+        </div>
+    </div>
+</div>
+
+<!-------       Footer Section      -------->
+
+<div class="container-fluid fh5co_footer_bg pb-3">
+    <div class="container animate-box">
+        <div class="row">
+            <div class="col-12 spdp_right py-5"><img src="images/logo-1.png" alt="img" class="footer_logo"/></div>
+            <div class="clearfix"></div>
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="footer_main_title py-3"> About</div>
+                <div class="footer_sub_about pb-3"> V7 News is an Indian television channel based in chennai,India. It was launched by Rafeek as a local TV Station in Chennai. 
+                    Which was carried only on subscription providers. It later changed its programming to an entertainment network
+                    and expanded its coverage area to whole state of TAMIL NADU<br><br><b>contact : </b>v7media Network<br>Chennai,TamilNadu<br><span>v7tvnews.com
+
+                </div>
+                <div class="footer_mediya_icon">
+                    <div class="text-center d-inline-block"><a class="fh5co_display_table_footer">
+                        <div class="fh5co_verticle_middle"><i class="fa fa-linkedin"></i></div>
+                    </a></div>
+                    <div class="text-center d-inline-block"><a class="fh5co_display_table_footer">
+                        <div class="fh5co_verticle_middle"><i class="fa fa-google-plus"></i></div>
+                    </a></div>
+                    <div class="text-center d-inline-block"><a class="fh5co_display_table_footer">
+                        <div class="fh5co_verticle_middle"><i class="fa fa-twitter"></i></div>
+                    </a></div>
+                    <div class="text-center d-inline-block"><a class="fh5co_display_table_footer">
+                        <div class="fh5co_verticle_middle"><i class="fa fa-facebook"></i></div>
+                    </a></div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-lg-2">
+                <div class="footer_main_title py-3"> வகை</div>
+                <ul class="footer_menu">
+                    <li><a href="arasiyal.html" class=""><i class="fa fa-angle-right"></i>&nbsp;&nbsp; அரசியல்</a></li>
+                    <li><a href="cinema.html" class=""><i class="fa fa-angle-right"></i>&nbsp;&nbsp; சினிமா</a></li>
+                    <li><a href="maruthuvam.html" class=""><i class="fa fa-angle-right"></i>&nbsp;&nbsp; மருத்துவம்</a></li>
+                    <li><a href="vanigam.html" class=""><i class="fa fa-angle-right"></i>&nbsp;&nbsp; வணிகம்</a></li>
+                    <li><a href="kalvi.html" class=""><i class="fa fa-angle-right"></i>&nbsp;&nbsp; கல்வி </a></li>
+                    <li><a href="anmigam.html" class=""><i class="fa fa-angle-right"></i>&nbsp;&nbsp; ஆண்மீகம்</a></li>
+                    <li><a href="game.html" class=""><i class="fa fa-angle-right"></i>&nbsp;&nbsp; விளையாட்டு</a></li>
+                    <li><a href="tourist.html" class=""><i class="fa fa-angle-right"></i>&nbsp;&nbsp; சுற்றுலா</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-5 col-lg-3 position_footer_relative">
+                <div class="footer_main_title py-3"> Most Viewed Posts</div>
+                <div class="footer_makes_sub_font"> நவ 19, 2016</div>
+                <a href="#" class="footer_post pb-4"> நடிகர் தனுஷ், மாளவிகா மோகனன் நடிப்பில் உருவாகியுள்ள படம் மாறன்... </a>
+                <div class="footer_makes_sub_font"> நவ 19, 2016</div>
+                <a href="#" class="footer_post pb-4"> ஜெயஸ்ரீயின் தற்போதைய காதலர் ராகவேஷ் என்பவரது அப்பா.... </a>
+                <div class="footer_makes_sub_font"> நவ 19, 2016</div>
+                <a href="#" class="footer_post pb-4"> தூத்துக்குடி வல்லநாடு ஆற்று பாலத்தில் மீண்டும் சேதம்: வாகன ஓட்டிகள் சிரமம்.... </a>
+                <div class="footer_position_absolute"><img src="images/footer_sub_tipik.png" alt="img" class="width_footer_sub_img"/></div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4 ">
+                <div class="footer_main_title py-3"> Last Modified Posts</div>
+                <a href="#" class="footer_img_post_6"><img src="images/08.11.21/tamil1.jpeg" alt="img"/></a>
+                <a href="#" class="footer_img_post_6"><img src="images/09.11.21/seithi2.jpeg" alt="img"/></a>
+                <a href="#" class="footer_img_post_6"><img src="images/08.11.21/seithi1.jpeg" alt="img"/></a>
+                <a href="#" class="footer_img_post_6"><img src="images/08.11.21/recent3.png" alt="img"/></a>
+                <a href="#" class="footer_img_post_6"><img src="images/08.11.21/tamil3.png" alt="img"/></a>
+                <a href="#" class="footer_img_post_6"><img src="images/08.11.21/cinima2.jpg" alt="img"/></a>
+                <a href="#" class="footer_img_post_6"><img src="images/08.11.21/tamil5.jpeg" alt="img"/></a>
+                <a href="#" class="footer_img_post_6"><img src="images/08.11.21/arasiyal1.jpeg" alt="img"/></a>
+                <a href="#" class="footer_img_post_6"><img src="images/01.11.21/world1.jpg" alt="img"/></a>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<!-----       Final Section     -------->
+
+<div class="container-fluid fh5co_footer_right_reserved">
+    <div class="container">
+        <div class="row  ">
+            <div class="col-12 col-md-6 py-4 Reserved"> © Copyright 2021, All rights reserved. Design by <a href="http://4ntechsolutions.com/" title="Rehovot">Rehovot</a>. </div>
+            <div class="col-12 col-md-6 spdp_right py-4">
+                <a href="index.html" class="footer_last_part_menu">முகப்பு</a>
+                <a href="blog.html" class="footer_last_part_menu">சற்றுமுன்</a>
+                <a href="world.html" class="footer_last_part_menu">உலகம்</a>
+                <a href="nadu.html" class="footer_last_part_menu">தமிழ்நாடு </a></div>
+        </div>
+    </div>
+</div>
+
+<div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="fa fa-arrow-up"></i></a>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<!--<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<!-- Waypoints -->
+<script src="js/jquery.waypoints.min.js"></script>
+<!-- Main -->
+<script src="js/main.js"></script>
 </body>
 </html>
